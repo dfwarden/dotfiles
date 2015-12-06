@@ -1,0 +1,84 @@
+" {{{ Set up Vundle, the plugin manager
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
+Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'scrooloose/syntastic'
+
+Bundle 'edkolev/tmuxline.vim'
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" }}} End Vundle config
+
+syntax enable
+set shortmess+=r
+set showmode
+set showcmd
+set ignorecase
+set smartcase
+set incsearch
+set gdefault
+set number
+set backspace=2
+set laststatus=2
+set statusline=%<%f\ %h%m%r%=%-20.(line=%l,col=%c%V,totlin=%L%)\%h%m%r%=%-40(,%n%Y%)\%P
+map J <PageDown>
+map K <PageUp>
+map W $
+map B ^
+map Y y$
+cmap w!! w !sudo tee % >/dev/null
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
+set showbreak=↪
+set foldmethod=marker
+let perl_fold = 1
+let python_fold = 1
+nnoremap <F5> :GundoToggle<CR>
+let mapleader = ","
+nmap ; :
+" White characters {{{
+set autoindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+" }}}
+" Navigation & UI {{{
+
+" Begining & End of line in Normal mode
+noremap H ^
+noremap L g_
+
+" more natural movement with wrap on
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+
+" Easy splitted window navigation
+noremap <C-h>  <C-w>h
+noremap <C-j>  <C-w>j
+noremap <C-k>  <C-w>k
+noremap <C-l>  <C-w>l
+
+" Easy buffer navigation
+noremap <leader>bp :bprevious<cr>
+noremap <leader>bn :bnext<cr>
+
+" Splits ,v and ,h to open new splits (vertical and horizontal)
+nnoremap <leader>v <C-w>v<C-w>l
+nnoremap <leader>s <C-w>s<C-w>j
+
+"}}}
