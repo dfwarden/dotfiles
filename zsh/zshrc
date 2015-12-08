@@ -45,3 +45,19 @@ export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pem
 
 # Use Boxen's Caskroom
 export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/boxen-brewcask/Caskroom/"
+
+# {{{ Vim-like hjkl line movements and line manipuation
+bindkey '^H' backward-word
+bindkey '^J' down-line-or-search
+bindkey '^K' up-line-or-search
+bindkey '^L' forward-word
+
+# Not sure if I like these over ctrl-(a|e)
+# Note that these are lowercase, which work with escape.
+bindkey '^[h' beginning-of-line
+bindkey '^[l' end-of-line
+
+# When moving between words you probably want to change the current word...
+# iTerm2 needs to be configured to send \E[19;2~ (f20) when ctrl-; is pressed.
+bindkey '^[[19;2~' delete-word
+# }}}
