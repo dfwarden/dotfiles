@@ -610,7 +610,7 @@
 	<key>HideActivityIndicator</key>
 	<false/>
 	<key>HideMenuBarInFullscreen</key>
-	<true/>
+	<false/>
 	<key>HideScrollbar</key>
 	<false/>
 	<key>HideTab</key>
@@ -665,9 +665,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>3389 179 739 462 1920 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>931 522 924 485 0 0 1920 1177 </string>
+	<string>2912 706 924 485 1920 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 0 2560 1440 1920 0 2560 1417 </string>
+	<string>229 116 585 848 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_C668803B-E42B-4E2F-8294-37D6143C5C2F</key>
 	<true/>
 	<key>New Bookmarks</key>
