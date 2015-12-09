@@ -464,7 +464,7 @@
 	<key>EnableRendezvous</key>
 	<false/>
 	<key>FocusFollowsMouse</key>
-	<true/>
+	<false/>
 	<key>FsTabDelay</key>
 	<real>0.10000000149011612</real>
 	<key>GlobalKeyMap</key>
