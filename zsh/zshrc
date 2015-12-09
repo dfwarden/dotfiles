@@ -5,8 +5,9 @@ ZSH=$HOME/src/oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# Warden: Nice fallback w/o powerline ZSH_THEME="dieter"
-ZSH_THEME="agnoster"
+# Warden: Nice fallback w/o powerline: ZSH_THEME="dieter"
+# Warden: Nice theme with powerline but no time: ZSH_THEME="agnoster"
+ZSH_THEME="dieter"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
