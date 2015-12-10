@@ -60,6 +60,9 @@
     # Merge upstream tracking only if fast-forward is possible
     ff = merge --ff-only
 
+    # Guess which email address to use based on remote URL
+    email-guess = "! ~/.git-scripts/email-guess.sh"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
