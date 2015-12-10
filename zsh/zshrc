@@ -7,7 +7,7 @@ ZSH=$HOME/src/oh-my-zsh
 # time that oh-my-zsh is loaded.
 # Warden: Nice fallback w/o powerline: ZSH_THEME="dieter"
 # Warden: Nice theme with powerline but no time: ZSH_THEME="agnoster"
-ZSH_THEME="dieter"
+ZSH_THEME="bullet-train"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
