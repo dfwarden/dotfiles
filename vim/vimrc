@@ -104,3 +104,11 @@ nmap <silent> <leader>d <Plug>DashSearch
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 "}}}
+"{{{ Diff highlight color
+" From: http://stackoverflow.com/a/13370967/4610994
+" Fix the difficult-to-read default setting for diff text highlighting.  The
+" " bang (!) is required since we are overwriting the DiffText setting. The
+" highlighting for 'Todo' also looks nice (yellow) if you don't like the "MatchParen"
+" colors.
+highlight! link DiffText Todo
+"}}}
