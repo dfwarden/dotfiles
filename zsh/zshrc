@@ -62,3 +62,10 @@ bindkey '^[l' end-of-line
 # iTerm2 needs to be configured to send \E[19;2~ (f20) when ctrl-; is pressed.
 bindkey '^[[19;2~' delete-word
 # }}}
+# {{{ Bullet Train theme settings
+BULLETTRAIN_TIME_BG='magenta'
+BULLETTRAIN_TIME_FG='white'
+BULLETTRAIN_CONTEXT_SHOW='true'
+BULLETTRAIN_CONTEXT_BG='green'
+BULLETTRAIN_CONTEXT_FG='white'
+# }}}

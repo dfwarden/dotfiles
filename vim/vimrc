@@ -25,6 +25,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " }}} End Vundle config
 
+set t_Co=256
+
 syntax enable
 set shortmess+=r
 set showmode
