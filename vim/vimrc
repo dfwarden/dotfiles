@@ -19,6 +19,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'rizzatti/dash.vim'
 Plugin 'dfwarden/puppet-syntax-vim'
 Bundle 'edkolev/tmuxline.vim'
+Bundle 'PProvost/vim-ps1'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
