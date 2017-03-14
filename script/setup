@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Set up git
+# First, create global template dir.
+if ! [ -L "${HOME}/.git_templates" ]; then
+  echo "Creating symlink to dotfiles' git templates at ~/.git_templates."
+  ln -Ffs "${HOME}/.dotfiles/git/templates" "${HOME}/.git_templates"
+fi
+# Then, create global git scripts dir.
+if ! [ -L "${HOME}/.git_scripts" ]; then
+  echo "Creating symlink to dotfiles' git scripts at ~/.git_scripts."
+  ln -Ffs "${HOME}/.dotfiles/git/scripts" "${HOME}/.git_scripts"
+fi
