@@ -121,7 +121,8 @@ ln -Ffs "${HOME}/.dotfiles/zsh/zshrc" "${HOME}/.zshrc"
 touch "${HOME}/.z"
 
 # vim and vundle
-mkdir -p "${HOME}/.vim/bundle"
+mkdir -p "${HOME}/.vim/bundle" "${HOME}/.vim/colors"
 git clone https://github.com/VundleVim/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
 ln -Ffs "${HOME}/.dotfiles/vim/vimrc" "${HOME}/.vimrc"
+/bin/cp ${DOTFILES}/vim/colors/*.vim "${HOME}/.vim/colors"
 vim +PluginInstall +qall
