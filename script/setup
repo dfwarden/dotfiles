@@ -63,6 +63,7 @@ done
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock showLaunchpadGestureEnabled -bool false
+defaults write com.apple.dock showhidden -bool true
 
 # clock
 defaults write NSGlobalDomain AppleICUForce24HourTime -bool true
@@ -108,3 +109,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # menumeters
 defaults import com.ragingmenace.MenuMeters "${DOTFILES}/menumeters/com.ragingmenace.MenuMeters.plist"
+
+# iterm2
+defaults import com.googlecode.iterm2 "${DOTFILES}/iterm2/com.googlecode.iterm2.plist"
