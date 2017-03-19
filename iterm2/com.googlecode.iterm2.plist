@@ -688,15 +688,15 @@
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>2605 633 228 325 1920 0 2560 1440 </string>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>3389 179 739 462 1920 0 2560 1417 </string>
+	<string>1371 248 739 328 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>2912 706 924 485 1920 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 769 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>4 913 796 473 0 0 2560 1417 </string>
+	<string>4 891 918 495 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1388 93 1005 1168 0 0 2560 1417 </string>
+	<string>1388 413 585 848 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>456 924 585 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1984,11 +1984,11 @@
 			<key>Name</key>
 			<string>David Warden</string>
 			<key>Non Ascii Font</key>
-			<string>SauceCodePowerline-Regular 11</string>
+			<string>SauceCodePowerline-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SauceCodePowerline-Medium 12</string>
+			<string>SauceCodePowerline-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
