@@ -5,6 +5,9 @@
 #   https://github.com/ernstnaezer/dotfiles/blob/master/osx.sh
 #   https://github.com/tiiiecherle/osx_install_config/blob/master/11_system_and_app_preferences/11c_osx_preferences_sierra.sh
 
+# Default to show you everything the script is doing.
+set -x
+
 # git
 if ! [ -L "${HOME}/.git_templates" ]; then
   echo "Creating symlink to dotfiles' git templates at ~/.git_templates."
@@ -36,11 +39,23 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write com.apple.menuextra.clock DateFormat -string "MM dd HH:mm"
-GLOBAL_BOOL_FALSE=('NSAutomaticCapitalizationEnabled', 'NSAutomaticPeriodSubstitutionEnabled', 'NSAutomaticSpellingCorrectionEnabled', 'NSAutomaticQuoteSubstitutionEnabled', 'NSAutomaticDashSubstitutionEnabled', 'ApplePressAndHoldEnabled')
-for key in $GLOBAL_BOOL_FALSE; do
+GLOBAL_BOOL_FALSE=(NSAutomaticCapitalizationEnabled NSAutomaticTextCompletionEnabled NSAutomaticPeriodSubstitutionEnabled NSAutomaticSpellingCorrectionEnabled NSAutomaticQuoteSubstitutionEnabled NSAutomaticDashSubstitutionEnabled ApplePressAndHoldEnabled)
+for key in "${GLOBAL_BOOL_FALSE[@]}"
+do
   defaults write NSGlobalDomain $key -bool false
 done
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# keyboards
+# Take USB Vendor and Product ID of known external keyboards and change their modifier keys.
+# Better way would be to enumerate all HID keyboard and set this on all non-Apple keyboards.
+PC_KEYBOARD_MODIFIERS="({HIDKeyboardModifierMappingDst=0;HIDKeyboardModifierMappingSrc=30064771129;},{HIDKeyboardModifierMappingDst=30064771299;HIDKeyboardModifierMappingSrc=30064771298;},{HIDKeyboardModifierMappingDst=30064771303;HIDKeyboardModifierMappingSrc=30064771302;},{HIDKeyboardModifierMappingDst=30064771298;HIDKeyboardModifierMappingSrc=30064771299;},{HIDKeyboardModifierMappingDst=30064771302;HIDKeyboardModifierMappingSrc=30064771303;})"  # capslock does nothing, swap command and alt.
+PC_KEYBOARD_IDS=("65261-24672")
+for keyboard in "${PC_KEYBOARD_IDS[@]}"
+do
+  # Bash will single quote $PC_KEYBOARD_MODIFIERS for us.
+  defaults -currentHost write NSGlobalDomain com.apple.keyboard.modifiermapping.$keyboard-0 $PC_KEYBOARD_MODIFIERS
+done
 
 # dock
 defaults write com.apple.dock autohide -bool true
@@ -52,12 +67,12 @@ defaults write NSGlobalDomain AppleICUForce24HourTime -bool true
 
 
 # finder
-FINDER_BOOL_TRUE=('ShowExternalHardDrivesOnDesktop', 'AppleShowAllFiles', 'AppleShowAllExtensions', 'ShowStatusBar', '_FXShowPosixPathInTitle', 'DSDontWriteNetworkStores', 'QLEnableTextSelection')
-for key in $FINDER_BOOL_TRUE; do
+FINDER_BOOL_TRUE=(ShowExternalHardDrivesOnDesktop AppleShowAllFiles AppleShowAllExtensions ShowStatusBar _FXShowPosixPathInTitle DSDontWriteNetworkStores QLEnableTextSelection)
+for key in "${FINDER_BOOL_TRUE[@]}"; do
   defaults write com.apple.finder $key -bool true
 done
-FINDER_BOOL_FALSE=('SidebarTagsSctionDisclosedState', 'ShowPathbar', 'FXEnableExtensionChangeWarning')
-for key in $FINDER_BOOL_FALSE; do
+FINDER_BOOL_FALSE=(SidebarTagsSctionDisclosedState ShowPathbar FXEnableExtensionChangeWarning)
+for key in "${FINDER_BOOL_FALSE[@]}"; do
   defaults write com.apple.finder $key -bool false
 done
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
@@ -65,36 +80,27 @@ defaults write com.apple.finder NewWindowTargetPath "file://${HOME}"
 # search current folder by default
 defaults write com.apple.finder FXDefaultSearchScope SCcf
 # column view
-defaults write com.apple.finder FXPreferredViewStyle Clmv
+defaults write com.apple.finder FXPreferredViewStyle clmv
 # desktop grid view
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
 # safari
-echo "Always show tab bar, status bar, and restore previous session"
-SAFARI_BOOL_TRUE=('AlwaysShowTabBar', 'AlwaysRestoreSessionAtLaunch', 'ShowOverlayStatusBar')
-for key in $SAFARI_BOOL_TRUE; do
+SAFARI_BOOL_TRUE=(AlwaysShowTabBar AlwaysRestoreSessionAtLaunch ShowOverlayStatusBar ShowFullURLInSmartSearchField)
+for key in "${SAFARI_BOOL_TRUE[@]}"; do
   defaults write com.apple.safari $key -bool true
 done
-echo "Privacy: Don't send search queries to Apple"
 defaults write com.apple.Safari UniversalSearchEnabled -bool false
 defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-echo "Hiding Safari's bookmarks bar by default"
 defaults write com.apple.Safari ShowFavoritesBar -bool false
-echo "Hiding Safari's sidebar in Top Sites"
 defaults write com.apple.Safari ShowSidebarInTopSites -bool false
-echo "Disabling Safari's thumbnail cache for History and Top Sites"
 defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
-echo "Enabling Safari's debug menu"
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
-echo "Making Safari's search banners default to Contains instead of Starts With"
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
-echo "Removing useless icons from Safari's bookmarks bar"
 defaults write com.apple.Safari ProxiesInBookmarksBar "()"
-echo "Enabling the Develop menu and the Web Inspector in Safari"
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
 defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
-echo "Adding a context menu item for showing the Web Inspector in web views"
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
