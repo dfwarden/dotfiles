@@ -114,7 +114,7 @@ defaults import com.ragingmenace.MenuMeters "${DOTFILES}/menumeters/com.ragingme
 defaults import com.googlecode.iterm2 "${DOTFILES}/iterm2/com.googlecode.iterm2.plist"
 
 # zsh and oh-my-zsh
-chsh -s /usr/local/bin/zsh
+sudo chsh -s $(which zsh) $(whoami)
 /bin/cp ${DOTFILES}/zsh/themes/*.zsh-theme "${HOME}/.oh-my-zsh/themes/"
 git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git "${HOME}/.oh-my-zsh"
 ln -Ffs "${HOME}/.dotfiles/zsh/zshrc" "${HOME}/.zshrc"
@@ -126,3 +126,8 @@ git clone https://github.com/VundleVim/Vundle.vim.git ${HOME}/.vim/bundle/Vundle
 ln -Ffs "${HOME}/.dotfiles/vim/vimrc" "${HOME}/.vimrc"
 /bin/cp ${DOTFILES}/vim/colors/*.vim "${HOME}/.vim/colors"
 vim +PluginInstall +qall
+
+# tmux
+mkdir -p "${HOME}/.tmux/plugins"
+git clone https://github.com/tmux-plugins/tpm "${HOME}/.tmux/plugins/tpm"
+ln -Ffs "${HOME}/.dotfiles/tmux/tmux.conf" "${HOME}/.tmux.conf"
