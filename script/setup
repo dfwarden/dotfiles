@@ -8,6 +8,8 @@
 # Default to show you everything the script is doing.
 set -x
 
+DOTFILES="${HOME}/.dotfiles"
+
 # git
 if ! [ -L "${HOME}/.git_templates" ]; then
   echo "Creating symlink to dotfiles' git templates at ~/.git_templates."
@@ -104,3 +106,5 @@ defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool 
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
+# menumeters
+defaults import com.ragingmenace.MenuMeters "${DOTFILES}/menumeters/com.ragingmenace.MenuMeters.plist"
