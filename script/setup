@@ -118,4 +118,10 @@ chsh -s /usr/local/bin/zsh
 /bin/cp ${DOTFILES}/zsh/themes/*.zsh-theme "${HOME}/.oh-my-zsh/themes/"
 git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git "${HOME}/.oh-my-zsh"
 ln -Ffs "${HOME}/.dotfiles/zsh/zshrc" "${HOME}/.zshrc"
-touch "${HOME}/.z
+touch "${HOME}/.z"
+
+# vim and vundle
+mkdir -p "${HOME}/.vim/bundle"
+git clone https://github.com/VundleVim/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
+ln -Ffs "${HOME}/.dotfiles/vim/vimrc" "${HOME}/.vimrc"
+vim +PluginInstall +qall

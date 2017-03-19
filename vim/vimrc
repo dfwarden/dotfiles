@@ -46,7 +46,7 @@ map B ^
 map Y y$
 cmap w!! w !sudo tee % >/dev/null
 set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
-set showbreak=↪
+"set showbreak=↪
 let perl_fold = 1
 let python_fold = 1
 nnoremap <F5> :GundoToggle<CR>
