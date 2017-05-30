@@ -51,12 +51,47 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 # keyboards
 # Take USB Vendor and Product ID of known external keyboards and change their modifier keys.
 # Better way would be to enumerate all HID keyboard and set this on all non-Apple keyboards.
-PC_KEYBOARD_MODIFIERS="({HIDKeyboardModifierMappingDst=0;HIDKeyboardModifierMappingSrc=30064771129;},{HIDKeyboardModifierMappingDst=30064771299;HIDKeyboardModifierMappingSrc=30064771298;},{HIDKeyboardModifierMappingDst=30064771303;HIDKeyboardModifierMappingSrc=30064771302;},{HIDKeyboardModifierMappingDst=30064771298;HIDKeyboardModifierMappingSrc=30064771299;},{HIDKeyboardModifierMappingDst=30064771302;HIDKeyboardModifierMappingSrc=30064771303;})"  # capslock does nothing, swap command and alt.
-PC_KEYBOARD_IDS=("65261-24672")
+# This has to be XML because otherwise defaults will try to write everything
+# as strings. See: https://apple.stackexchange.com/questions/141069/updating-modifier-keys-from-the-command-line-takes-no-effect
+PC_KEYBOARD_MODIFIERS="<array>
+        <dict>
+            <key>HIDKeyboardModifierMappingDst</key>
+            <integer>0</integer>
+            <key>HIDKeyboardModifierMappingSrc</key>
+            <integer>30064771129</integer>
+        </dict>
+        <dict>
+            <key>HIDKeyboardModifierMappingDst</key>
+            <integer>30064771299</integer>
+            <key>HIDKeyboardModifierMappingSrc</key>
+            <integer>30064771298</integer>
+        </dict>
+        <dict>
+            <key>HIDKeyboardModifierMappingDst</key>
+            <integer>30064771303</integer>
+            <key>HIDKeyboardModifierMappingSrc</key>
+            <integer>30064771302</integer>
+        </dict>
+        <dict>
+            <key>HIDKeyboardModifierMappingDst</key>
+            <integer>30064771298</integer>
+            <key>HIDKeyboardModifierMappingSrc</key>
+            <integer>30064771299</integer>
+        </dict>
+        <dict>
+            <key>HIDKeyboardModifierMappingDst</key>
+            <integer>30064771302</integer>
+            <key>HIDKeyboardModifierMappingSrc</key>
+            <integer>30064771303</integer>
+        </dict>
+    </array>"  # capslock does nothing, swap command and alt.
+# Also, bash will try to single quote everything separated by a space, so remove all spaces to make one big single quote block of XML.
+PC_KEYBOARD_MODIFIERS_ONELINE="$(echo "${PC_KEYBOARD_MODIFIERS}" | tr -d '[:space:]')"
+PC_KEYBOARD_IDS=("65261-24672") # sculpt mod
 for keyboard in "${PC_KEYBOARD_IDS[@]}"
 do
   # Bash will single quote $PC_KEYBOARD_MODIFIERS for us.
-  defaults -currentHost write NSGlobalDomain com.apple.keyboard.modifiermapping.$keyboard-0 $PC_KEYBOARD_MODIFIERS
+  defaults -currentHost write NSGlobalDomain com.apple.keyboard.modifiermapping.$keyboard-0 $PC_KEYBOARD_MODIFIERS_ONELINE
 done
 
 # dock
