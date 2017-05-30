@@ -100,9 +100,18 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock showLaunchpadGestureEnabled -bool false
 defaults write com.apple.dock showhidden -bool true
 
+# mission control
+defaults write com.apple.dock mru-spaces -bool false
+
 # clock
 defaults write NSGlobalDomain AppleICUForce24HourTime -bool true
+defaults write com.apple.menuextra.clock DateFormat "MMM d  H:mm"
 
+# privacy
+defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
+
+# menubar
+defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true
 
 # finder
 FINDER_BOOL_TRUE=(ShowExternalHardDrivesOnDesktop AppleShowAllFiles AppleShowAllExtensions ShowStatusBar _FXShowPosixPathInTitle DSDontWriteNetworkStores QLEnableTextSelection)
@@ -123,6 +132,9 @@ defaults write com.apple.finder FXPreferredViewStyle clmv
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+# desktop item info
+defaults write com.apple.finder showItemInfo -bool true
+defaults write com.apple.finder textSize 13
 
 # safari
 SAFARI_BOOL_TRUE=(AlwaysShowTabBar AlwaysRestoreSessionAtLaunch ShowOverlayStatusBar ShowFullURLInSmartSearchField)
