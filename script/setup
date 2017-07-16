@@ -13,14 +13,17 @@ DOTFILES="${HOME}/.dotfiles"
 # git
 if ! [ -L "${HOME}/.git_templates" ]; then
   echo "Creating symlink to dotfiles' git templates at ~/.git_templates."
-  ln -Ffs "${HOME}/.dotfiles/git/templates" "${HOME}/.git_templates"
+  ln -Ffs "${DOTFILES}/git/templates" "${HOME}/.git_templates"
 fi
 if ! [ -L "${HOME}/.git_scripts" ]; then
   echo "Creating symlink to dotfiles' git scripts at ~/.git_scripts."
-  ln -Ffs "${HOME}/.dotfiles/git/scripts" "${HOME}/.git_scripts"
+  ln -Ffs "${DOTFILES}/git/scripts" "${HOME}/.git_scripts"
 fi
 git config --global alias.email-guess '!. ~/.git_scripts/email-guess.sh'
 git config --global init.templatedir '~/.git_templates/'
+
+# unlock git-crypt dotfiles, requires git-crypt and gnupg
+cd $DOTFILES && git-crypt unlock
 
 # global
 # Expand save panel by default
@@ -164,17 +167,21 @@ defaults import com.googlecode.iterm2 "${DOTFILES}/iterm2/com.googlecode.iterm2.
 sudo chsh -s $(which zsh) $(whoami)
 /bin/cp ${DOTFILES}/zsh/themes/*.zsh-theme "${HOME}/.oh-my-zsh/themes/"
 git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git "${HOME}/.oh-my-zsh"
-ln -Ffs "${HOME}/.dotfiles/zsh/zshrc" "${HOME}/.zshrc"
+ln -Ffs "${DOTFILES}/zsh/zshrc" "${HOME}/.zshrc"
 touch "${HOME}/.z"
 
 # vim and vundle
 mkdir -p "${HOME}/.vim/bundle" "${HOME}/.vim/colors"
 git clone https://github.com/VundleVim/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
-ln -Ffs "${HOME}/.dotfiles/vim/vimrc" "${HOME}/.vimrc"
+ln -Ffs "${DOTFILES}/vim/vimrc" "${HOME}/.vimrc"
 /bin/cp ${DOTFILES}/vim/colors/*.vim "${HOME}/.vim/colors"
 vim +PluginInstall +qall
 
 # tmux
 mkdir -p "${HOME}/.tmux/plugins"
 git clone https://github.com/tmux-plugins/tpm "${HOME}/.tmux/plugins/tpm"
-ln -Ffs "${HOME}/.dotfiles/tmux/tmux.conf" "${HOME}/.tmux.conf"
+ln -Ffs "${DOTFILES}/tmux/tmux.conf" "${HOME}/.tmux.conf"
+
+# Better Touch Tool
+mkdir -p "${HOME}/Library/Application Support/BetterTouchTool"
+ln -Ffs "${DOTFILES}/bettertouchtool/license.bettertouchtool" "${HOME}/Library/Application Support/BetterTouchTool/bettertouchtool.bttlicense"
