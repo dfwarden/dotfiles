@@ -5,6 +5,14 @@
 #   https://github.com/ernstnaezer/dotfiles/blob/master/osx.sh
 #   https://github.com/tiiiecherle/osx_install_config/blob/master/11_system_and_app_preferences/11c_osx_preferences_sierra.sh
 
+# Todo:
+#  NSPreferredWebServices =     {
+#      NSWebServicesProviderWebSearch =         {
+#          NSDefaultDisplayName = Google;
+#          NSProviderIdentifier = "com.google.www";
+#      };
+#  };
+
 # Default to show you everything the script is doing.
 set -x
 
@@ -44,7 +52,7 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 defaults write com.apple.menuextra.clock DateFormat -string "MM dd HH:mm"
-GLOBAL_BOOL_FALSE=(NSAutomaticCapitalizationEnabled NSAutomaticTextCompletionEnabled NSAutomaticPeriodSubstitutionEnabled NSAutomaticSpellingCorrectionEnabled NSAutomaticQuoteSubstitutionEnabled NSAutomaticDashSubstitutionEnabled ApplePressAndHoldEnabled)
+GLOBAL_BOOL_FALSE=(NSAutomaticTextCompletionEnabled NSAutomaticCapitalizationEnabled NSAutomaticTextCompletionEnabled NSAutomaticPeriodSubstitutionEnabled NSAutomaticSpellingCorrectionEnabled NSAutomaticQuoteSubstitutionEnabled NSAutomaticDashSubstitutionEnabled ApplePressAndHoldEnabled)
 for key in "${GLOBAL_BOOL_FALSE[@]}"
 do
   defaults write NSGlobalDomain $key -bool false
