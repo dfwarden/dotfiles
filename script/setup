@@ -34,6 +34,27 @@ git config --global init.templatedir '~/.git_templates/'
 cd $DOTFILES && git-crypt unlock
 
 # global
+# Default to Google for web search
+PROVIDER_WEB_SEARCH_GOOGLE=$(cat <<-END
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPreferredWebServices</key>
+	<dict>
+		<key>NSWebServicesProviderWebSearch</key>
+		<dict>
+			<key>NSDefaultDisplayName</key>
+			<string>Googlea</string>
+			<key>NSProviderIdentifier</key>
+			<string>com.google.www</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
+END
+)
+echo $PROVIDER_WEB_SEARCH_GOOGLE | defaults import -g -
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
