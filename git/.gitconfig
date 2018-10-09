@@ -168,3 +168,5 @@ helper = /opt/boxen/bin/boxen-git-credential
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
 	required = true
+[pager]
+	branch = false
