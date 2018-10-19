@@ -31,37 +31,42 @@ ZSH_THEME="bullet-train"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx brew brew-cask virtualenv zsh-syntax-highlighting z httpie)
+plugins=(git gpg-agent brew brew-cask virtualenv zsh-syntax-highlighting z httpie)
 
 source $ZSH/oh-my-zsh.sh
 
 # Init boxen's env
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
+# Puppetlabs Path
+export PATH=/opt/puppetlabs/bin:$PATH
+
 # Homebrew zsh completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-# Enable OpenSSL validation of certs
-export SSL_CERT_FILE=/usr/local/etc/openssl/cert.pem
+# GOPATH
+export GOPATH=$HOME/src/golang
 
-# Use Boxen's Caskroom
-export HOMEBREW_CASK_OPTS="--caskroom=/usr/local/boxen-brewcask/Caskroom/"
+# Homebrew
+export HOMEBREW_GITHUB_API_TOKEN="f2e853d9f39d11904b290d8cd623659e4047ba9f"
+
+# Default to homebrew ruby
+export PATH=/usr/local/opt/ruby/bin:$PATH
+
+# Default to homebrew openssl binary
+export PATH=/usr/local/opt/openssl/bin:$PATH
 
 # {{{ Vim-like hjkl line movements and line manipuation
-bindkey '^H' backward-word
-bindkey '^J' down-line-or-search
-bindkey '^K' up-line-or-search
-bindkey '^L' forward-word
-
-# Not sure if I like these over ctrl-(a|e)
-# Note that these are lowercase, which work with escape.
-bindkey '^[h' beginning-of-line
-bindkey '^[l' end-of-line
+bindkey '^H' beginning-of-line
+bindkey '^J' backward-word
+bindkey '^K' forward-word
+bindkey '^L' end-of-line
 
 # When moving between words you probably want to change the current word...
 # iTerm2 needs to be configured to send \E[19;2~ (f20) when ctrl-; is pressed.
 bindkey '^[[19;2~' delete-word
 # }}}
+
 # {{{ Bullet Train theme settings
 BULLETTRAIN_TIME_BG='magenta'
 BULLETTRAIN_TIME_FG='white'
