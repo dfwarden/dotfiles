@@ -21,6 +21,7 @@ if ! [ -L "${HOME}/.git_scripts" ]; then
 fi
 git config --global alias.email-guess '!. ~/.git_scripts/email-guess.sh'
 git config --global init.templatedir '~/.git_templates/'
+git config --global user.name 'David Warden'
 
 # unlock git-crypt dotfiles, requires git-crypt and gnupg
 cd $DOTFILES && git-crypt unlock
