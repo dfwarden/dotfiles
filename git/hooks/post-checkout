@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Warden: If initial clone/checkout, guess what author to use in this repo.
 if [[ $1 == 00000000000* ]]; then
   git email-guess
 fi
