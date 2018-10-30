@@ -77,7 +77,7 @@
     "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
     "BTTTpThreeFingerSwipeSensitivity" : 0.29999999999999999,
     "BSTMemorySaver" : true,
-    "BTTSavedMousePosition" : "{2349.55859375, 39.23046875}",
+    "BTTSavedMousePosition" : "{3487.875, 73.9453125}",
     "BSTWindowGrabPosY" : 10,
     "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
     "showTouchBarTab" : true,
@@ -130,18 +130,8 @@
     "BTTTouchBarVisible" : false,
     "BTTTouchBarUseMonoSpacedFont" : true
   },
-  "BTTPresetUUID" : "5E6A4282-4B83-4E8A-A734-F89A15451AE3",
+  "BTTPresetUUID" : "E27A83B4-B236-41B0-A694-5D2E8F818034",
   "BTTPresetContent" : [
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTAppSpecificSettings" : {
-
-      },
-      "BTTTriggers" : [
-
-      ]
-    },
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
@@ -149,6 +139,29 @@
 
       },
       "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 1008,
+          "BTTTriggerTypeDescription" : "Button 8",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 113,
+          "BTTPredefinedActionName" : "Move Left a Space",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "695DABDB-8321-4C3E-A3C8-36EC1474F28D",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 114,
+          "BTTPredefinedActionName" : "Move Right a Space",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "12A99CA2-0551-42E6-862D-1BA1086EB043",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 1
+        },
         {
           "BTTTriggerType" : 1012,
           "BTTTriggerTypeDescription" : "Button 12",
@@ -161,26 +174,74 @@
           "BTTOrder" : 7
         },
         {
+          "BTTTriggerType" : 1004,
+          "BTTTriggerTypeDescription" : "Button 4",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 114,
+          "BTTPredefinedActionName" : "Move Right a Space",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "474BDD72-DA4B-4AE4-AFE6-1B9369118EA2",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 11
+        },
+        {
           "BTTTriggerType" : 1002,
           "BTTTriggerTypeDescription" : "Middle Mouse Button",
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 165,
-          "BTTPredefinedActionName" : "Mission Control & Immediately Show Desktop Preview",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
           "BTTEnabled2" : 1,
           "BTTUUID" : "B84D5F7A-D3A1-4F6F-93FE-37A44F7F1784",
           "BTTEnabled" : 1,
           "BTTOrder" : 9
         },
         {
-          "BTTTriggerType" : 1006,
-          "BTTTriggerTypeDescription" : "Button 6",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 45,
-          "BTTPredefinedActionName" : "Show Desktop",
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 113,
+          "BTTPredefinedActionName" : "Move Left a Space",
+          "BTTAdditionalConfiguration" : "1310720",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "60207994-941B-4F9F-9756-8E735800046F",
+          "BTTUUID" : "2C853C7D-87E5-452E-9B3A-CE7BC52F83DE",
           "BTTEnabled" : 1,
-          "BTTOrder" : 5
+          "BTTShortcutKeyCode" : 4,
+          "BTTShortcutModifierKeys" : 1310720,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : 1007,
+          "BTTTriggerTypeDescription" : "Button 7",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "1FE06AFB-9829-464E-9AC0-48E99DD8B63F",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : 1011,
+          "BTTTriggerTypeDescription" : "Button 11",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 26,
+          "BTTPredefinedActionName" : "Previous",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "FDC8DB44-1438-474E-8192-119EF5E3F0BE",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 6
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTAdditionalConfiguration" : "1048584",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "86EC569F-38E2-4420-A83C-00BCC5C1A1A1",
+          "BTTTriggerOnDown" : 0,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 4,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 2
         },
         {
           "BTTTriggerType" : 1013,
@@ -194,6 +255,17 @@
           "BTTOrder" : 8
         },
         {
+          "BTTTriggerType" : 1009,
+          "BTTTriggerTypeDescription" : "Button 9",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "5B7E12F9-7BDC-48D9-862E-BD4F85D94C40",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0
+        },
+        {
           "BTTTriggerType" : 1005,
           "BTTTriggerTypeDescription" : "Button 5",
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
@@ -204,29 +276,6 @@
           "BTTUUID" : "42D678D6-FB86-4D97-B8D5-6CCF216C3839",
           "BTTEnabled" : 1,
           "BTTOrder" : 2
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 113,
-          "BTTPredefinedActionName" : "Move Left a Space",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "2C853C7D-87E5-452E-9B3A-CE7BC52F83DE",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 4,
-          "BTTShortcutModifierKeys" : 1310720,
-          "BTTOrder" : 0
-        },
-        {
-          "BTTTriggerType" : 1009,
-          "BTTTriggerTypeDescription" : "Button 9",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 165,
-          "BTTPredefinedActionName" : "Mission Control & Immediately Show Desktop Preview",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "5B7E12F9-7BDC-48D9-862E-BD4F85D94C40",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 0
         },
         {
           "BTTTriggerType" : 1003,
@@ -251,62 +300,26 @@
           "BTTOrder" : 4
         },
         {
-          "BTTTriggerType" : 1008,
-          "BTTTriggerTypeDescription" : "Button 8",
+          "BTTTriggerType" : 1006,
+          "BTTTriggerTypeDescription" : "Button 6",
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 113,
-          "BTTPredefinedActionName" : "Move Left a Space",
+          "BTTPredefinedActionType" : 45,
+          "BTTPredefinedActionName" : "Show Desktop",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "695DABDB-8321-4C3E-A3C8-36EC1474F28D",
+          "BTTUUID" : "60207994-941B-4F9F-9756-8E735800046F",
           "BTTEnabled" : 1,
-          "BTTOrder" : 3
-        },
-        {
-          "BTTTriggerType" : 1007,
-          "BTTTriggerTypeDescription" : "Button 7",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,124",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "1FE06AFB-9829-464E-9AC0-48E99DD8B63F",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 1
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 114,
-          "BTTPredefinedActionName" : "Move Right a Space",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "12A99CA2-0551-42E6-862D-1BA1086EB043",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 37,
-          "BTTShortcutModifierKeys" : 1310720,
-          "BTTOrder" : 1
-        },
-        {
-          "BTTTriggerType" : 1004,
-          "BTTTriggerTypeDescription" : "Button 4",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 114,
-          "BTTPredefinedActionName" : "Move Right a Space",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "474BDD72-DA4B-4AE4-AFE6-1B9369118EA2",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 11
-        },
-        {
-          "BTTTriggerType" : 1011,
-          "BTTTriggerTypeDescription" : "Button 11",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 26,
-          "BTTPredefinedActionName" : "Previous",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "FDC8DB44-1438-474E-8192-119EF5E3F0BE",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 6
+          "BTTOrder" : 5
         }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
       ]
     }
   ],
