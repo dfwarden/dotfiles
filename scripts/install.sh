@@ -44,3 +44,4 @@ loginitems -a BetterTouchTool
 loginitems -a MenuMetersApp -p "${HOME}/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app"
 loginitems -a 'Alfred 3'
 loginitems -a Dash
+loginitems -a Caffeine
