@@ -1,2 +1,4 @@
 *.swp
 vim/.vim/bundle
+application-support/Dash/*
+!application-support/Dash/License/license.dash-license
