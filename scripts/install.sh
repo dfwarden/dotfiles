@@ -42,4 +42,5 @@ stow library-preferences -t $HOME/Library/Preferences
 # Set up LoginItems
 loginitems -a BetterTouchTool
 loginitems -a MenuMetersApp -p "${HOME}/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app"
-loginitems -a Karabiner-Elemments
+loginitems -a 'Alfred 3'
+loginitems -a Dash
