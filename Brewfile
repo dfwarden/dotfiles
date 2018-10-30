@@ -23,7 +23,7 @@ cask "iterm2"
 cask "bettertouchtool"
 cask "yujitach-menumeters"
 cask "karabiner-elements"
-cask "font-consolas-for-powerline"
+cask "font-source-code-pro-for-powerline"
 mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Twitterrific', id: 1289378661
 mas 'Todoist', id: 585829637
