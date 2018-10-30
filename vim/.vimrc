@@ -3,21 +3,18 @@ set nocompatible               " be iMproved
 filetype off                   " required!
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+set rtp+=~/.vim/Vundle.vim
+" call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+call vundle#begin('~/.vim/bundle')
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
+" plugins of choice
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'rizzatti/dash.vim'
 Plugin 'rodjek/vim-puppet'
-Bundle 'edkolev/tmuxline.vim'
 Bundle 'PProvost/vim-ps1'
 
 " All of your Plugins must be added before the following line

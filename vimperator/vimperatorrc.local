@@ -1,5 +1,0 @@
-" Save the shift key!
-nnoremap ; :
-
-" Show tab numbers
-set tabnumbers

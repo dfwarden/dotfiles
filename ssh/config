@@ -1,3 +1,0 @@
-Host github.com
-	IdentityFile ~/.ssh/warden_personal_ed25519
-	IdentityFile ~/.ssh/warden_personal_rsa

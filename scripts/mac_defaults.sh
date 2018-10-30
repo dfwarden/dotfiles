@@ -1,30 +1,5 @@
-#!/bin/bash
-
-# Taken from:
-#   https://github.com/mathiasbynens/dotfiles/blob/master/.macos
-#   https://github.com/ernstnaezer/dotfiles/blob/master/osx.sh
-#   https://github.com/tiiiecherle/osx_install_config/blob/master/11_system_and_app_preferences/11c_osx_preferences_sierra.sh
-
 # Default to show you everything the script is doing.
 set -x
-
-DOTFILES="${HOME}/.dotfiles"
-
-# git
-if ! [ -L "${HOME}/.git_templates" ]; then
-  echo "Creating symlink to dotfiles' git templates at ~/.git_templates."
-  ln -Ffs "${DOTFILES}/git/templates" "${HOME}/.git_templates"
-fi
-if ! [ -L "${HOME}/.git_scripts" ]; then
-  echo "Creating symlink to dotfiles' git scripts at ~/.git_scripts."
-  ln -Ffs "${DOTFILES}/git/scripts" "${HOME}/.git_scripts"
-fi
-git config --global alias.email-guess '!. ~/.git_scripts/email-guess.sh'
-git config --global init.templatedir '~/.git_templates/'
-git config --global user.name 'David Warden'
-
-# unlock git-crypt dotfiles, requires git-crypt and gnupg
-cd $DOTFILES && git-crypt unlock
 
 # global
 # Default to Google for web search
@@ -179,31 +154,3 @@ defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool 
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
-# menumeters
-defaults import com.ragingmenace.MenuMeters "${DOTFILES}/menumeters/com.ragingmenace.MenuMeters.plist"
-
-# iterm2
-defaults import com.googlecode.iterm2 "${DOTFILES}/iterm2/com.googlecode.iterm2.plist"
-
-# zsh and oh-my-zsh
-sudo chsh -s $(which zsh) $(whoami)
-/bin/cp ${DOTFILES}/zsh/themes/*.zsh-theme "${HOME}/.oh-my-zsh/themes/"
-git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git "${HOME}/.oh-my-zsh"
-ln -Ffs "${DOTFILES}/zsh/zshrc" "${HOME}/.zshrc"
-touch "${HOME}/.z"
-
-# vim and vundle
-mkdir -p "${HOME}/.vim/bundle" "${HOME}/.vim/colors"
-git clone https://github.com/VundleVim/Vundle.vim.git ${HOME}/.vim/bundle/Vundle.vim
-ln -Ffs "${DOTFILES}/vim/vimrc" "${HOME}/.vimrc"
-/bin/cp ${DOTFILES}/vim/colors/*.vim "${HOME}/.vim/colors"
-vim +PluginInstall +qall
-
-# tmux
-mkdir -p "${HOME}/.tmux/plugins"
-git clone https://github.com/tmux-plugins/tpm "${HOME}/.tmux/plugins/tpm"
-ln -Ffs "${DOTFILES}/tmux/tmux.conf" "${HOME}/.tmux.conf"
-
-# Better Touch Tool
-mkdir -p "${HOME}/Library/Application Support/BetterTouchTool"
-ln -Ffs "${DOTFILES}/bettertouchtool/license.bettertouchtool" "${HOME}/Library/Application Support/BetterTouchTool/bettertouchtool.bttlicense"
