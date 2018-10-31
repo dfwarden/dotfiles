@@ -18,6 +18,9 @@ brew bundle
 
 # unlock git-crypt dotfiles, requires git-crypt and gnupg
 git-crypt unlock
+
+# in this repo, call a global git alias of ours to convert *.plist files to
+# xml for diff purposes.
 git config diff.plist.textconv 'git plutil-toxml1'
 
 for stow_package in "${STOW_PACKAGES[@]}"; do
