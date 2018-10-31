@@ -9,12 +9,15 @@ set rtp+=~/.vim/Vundle.vim
 call vundle#begin('~/.vim/bundle')
 
 " plugins of choice
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'rizzatti/dash.vim'
 Plugin 'rodjek/vim-puppet'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'morhetz/gruvbox'
 Bundle 'PProvost/vim-ps1'
 
 " All of your Plugins must be added before the following line
@@ -49,6 +52,7 @@ let python_fold = 1
 nnoremap <F5> :GundoToggle<CR>
 let mapleader = ","
 nmap ; :
+
 " White characters {{{
 set autoindent
 set tabstop=4
@@ -56,6 +60,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 " }}}
+
 " Navigation & UI {{{
 
 " Begining & End of line in Normal mode
@@ -68,7 +73,7 @@ nnoremap k gk
 vnoremap j gj
 vnoremap k gk
 
-" Easy splitted window navigation
+" Easy ctrl-based splitted window navigation
 noremap <C-h>  <C-w>h
 noremap <C-j>  <C-w>j
 noremap <C-k>  <C-w>k
@@ -82,7 +87,24 @@ noremap <leader>bn :bnext<cr>
 nnoremap <leader>v <C-w>v<C-w>l
 nnoremap <leader>s <C-w>s<C-w>j
 
-"}}}
+" Change cursor shape based on mode
+" https://www.iterm2.com/documentation-escape-codes.html
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+" Colorscheme
+set background=dark
+" Theme options need to be set before setting colorscheme
+let g:gruvbox_contrast_dark = 'medium'
+let g:gruvbox_number_column = 'bg1'
+colorscheme gruvbox
+
+" Airline plugin config
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+"}}} End Navigation & UI
+
+
 "{{{ Syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -95,14 +117,13 @@ let g:syntastic_check_on_wq = 0
 
 let g:syntastic_puppet_puppetlint_args = "--no-80chars-check"
 "}}}
+
+
 "{{{ Dash
 nmap <silent> <leader>d <Plug>DashSearch
 "}}}
-"{{{ Change cursor shape based on mode
-" https://www.iterm2.com/documentation-escape-codes.html
-let &t_SI = "\<Esc>]50;CursorShape=1\x7"
-let &t_EI = "\<Esc>]50;CursorShape=0\x7"
-"}}}
+
+
 "{{{ Diff highlight color
 " From: http://stackoverflow.com/a/13370967/4610994
 " Fix the difficult-to-read default setting for diff text highlighting.  The
@@ -110,8 +131,4 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 " highlighting for 'Todo' also looks nice (yellow) if you don't like the "MatchParen"
 " colors.
 highlight! link DiffText Todo
-"}}}
-"{{{ Molokai Color Scheme - https://github.com/tomasr/molokai
-let g:molokai_original = 1
-let g:rehash256 = 1
 "}}}
