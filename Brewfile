@@ -28,4 +28,3 @@ cask "font-source-code-pro-for-powerline"
 mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Twitterrific', id: 1289378661
 mas 'Todoist', id: 585829637
-mas 'Slack', id: 803453959
