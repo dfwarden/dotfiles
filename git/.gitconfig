@@ -1,5 +1,6 @@
 [alias]
 	email-guess = !. ~/.git_scripts/email-guess.sh
+	plutil-toxml1 = !. ~/.git_scripts/plutil-toxml1.sh
 [init]
 	templatedir = ~/.git_templates/
 [user]

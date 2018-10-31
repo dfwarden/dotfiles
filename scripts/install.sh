@@ -18,6 +18,7 @@ brew bundle
 
 # unlock git-crypt dotfiles, requires git-crypt and gnupg
 git-crypt unlock
+git config diff.plist.textconv 'git plutil-toxml1'
 
 for stow_package in "${STOW_PACKAGES[@]}"; do
   stow $stow_package
