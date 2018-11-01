@@ -20,8 +20,7 @@ brew "loginitems"
 brew "dockutil"
 brew "tree"
 brew "jq"
-brew "pyenv"
-brew "pyenv-virtualenv"
+brew "python"
 
 # Casks
 cask "alfred"
