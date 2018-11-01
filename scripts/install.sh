@@ -33,6 +33,7 @@ if [ "$CURRENT_SHELL" != "/bin/zsh" ]; then
     chsh -s $(which zsh) ${USER}
 fi
 cp "zsh/themes/"*".zsh-theme" "${HOME}/.oh-my-zsh/custom/themes"
+git clone https://github.com/zsh-users/zsh-completions "${HOME}/.oh-my-zsh/custom/plugins/zsh-completions"
 
 # Install Vundle plugins from .vimrc
 vim +PluginUpgrade +qall

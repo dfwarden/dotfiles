@@ -32,12 +32,16 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(gitfast virtualenv z httpie common-aliases encode64 gpg-agent tmux)
+plugins=(virtualenv z common-aliases gpg-agent history-substring-search zsh-completions)
 
+# Completions from zsh-completions plugin
+autoload -U compinit && compinit
+
+# Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-# Homebrew zsh completions
-fpath=(/usr/local/share/zsh-completions $fpath)
+# Make less more powerful (https://www.topbug.net/blog/2016/09/27/make-gnu-less-more-powerful/)
+export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 
 # GOPATH
 export GOPATH=$HOME/src/golang
