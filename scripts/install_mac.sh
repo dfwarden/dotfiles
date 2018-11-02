@@ -106,6 +106,10 @@ defaults write com.apple.menuextra.clock DateFormat "MMM d  H:mm"
 # privacy
 defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
 
+# TextEdit
+# Default to plain text
+defaults write com.apple.TextEdit RichText -bool false
+
 # finder
 FINDER_BOOL_TRUE=(ShowHardDrivesOnDesktop ShowExternalHardDrivesOnDesktop ShowMountedServersOnDesktop ShowPathbar ShowStatusBar AppleShowAllExtensions _FXShowPosixPathInTitle DSDontWriteNetworkStores QLEnableTextSelection)
 for key in "${FINDER_BOOL_TRUE[@]}"; do
