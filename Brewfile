@@ -21,6 +21,7 @@ brew "dockutil"
 brew "tree"
 brew "jq"
 brew "python"
+brew "libav"
 
 # Casks
 cask "alfred"
