@@ -22,6 +22,7 @@ brew "tree"
 brew "jq"
 brew "python"
 brew "ruby"
+brew "golang"
 brew "libav"
 
 # Casks
