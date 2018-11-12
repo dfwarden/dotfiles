@@ -35,6 +35,7 @@ cask "bettertouchtool"
 cask "yujitach-menumeters"
 cask "karabiner-elements"
 cask "fugu"
+cask "gas-mask"
 cask "font-source-code-pro-for-powerline"
 
 # Dislocker (FUSE + Microsoft Bitlocker) requires osxfuse cask
