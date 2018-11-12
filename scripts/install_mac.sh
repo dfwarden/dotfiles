@@ -141,3 +141,14 @@ defaults write com.apple.finder FXPreferredViewStyle clmv
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 
 killall Finder
+
+# Safari
+SAFARI_BOOL_TRUE=(AlwaysShowTabBar AlwaysRestoreSessionAtLaunch ShowOverlayStatusBar ShowFullURLInSmartSearchField IncludeDevelopMenu ShowIconsInTabs SuppressSearchSuggestions)
+for key in "${SAFARI_BOOL_TRUE[@]}"; do
+  defaults write com.apple.Safari $key -bool true
+done
+SAFARI_BOOL_FALSE=(UniversalSearchEnabled ShowFavoritesBar ShowSidebarInTopSites FindOnPageMatchesWordStartsOnly)
+for key in "${SAFARI_BOOL_FALSE[@]}"; do
+  defaults write com.apple.Safari $key -bool false
+done
+defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
