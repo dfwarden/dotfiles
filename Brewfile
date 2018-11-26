@@ -20,12 +20,14 @@ brew "loginitems"
 brew "dockutil"
 brew "tree"
 brew "pstree"
+brew "htop"
 brew "nmap"
 brew "jq"
 brew "python"
 brew "ruby"
 brew "golang"
 brew "libav"
+brew "postgresql"
 
 # Casks
 cask "alfred"
@@ -37,6 +39,7 @@ cask "yujitach-menumeters"
 cask "karabiner-elements"
 cask "fugu"
 cask "gas-mask"
+cask "vmware-remote-console"
 cask "font-source-code-pro-for-powerline"
 
 # Dislocker (FUSE + Microsoft Bitlocker) requires osxfuse cask
@@ -47,3 +50,4 @@ brew "dislocker"
 mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Twitterrific', id: 1289378661
 mas 'Todoist', id: 585829637
+mas 'BarTunes', id: 444425546
