@@ -7,3 +7,5 @@
 	name = David Warden
 [pager]
     branch = false
+[commit]
+    verbose = true
