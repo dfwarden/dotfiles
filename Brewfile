@@ -28,6 +28,7 @@ brew "ruby"
 brew "golang"
 brew "libav"
 brew "postgresql"
+brew "youtube-dl"
 
 # Casks
 cask "alfred"
