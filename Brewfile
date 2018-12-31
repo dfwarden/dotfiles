@@ -33,6 +33,10 @@ brew "youtube-dl"
 
 # Casks
 cask "alfred"
+cask "slack"
+cask "firefox"
+cask "google-chrome"
+cask "1password"
 cask "caffeine"
 cask "dash"
 cask "iterm2"
