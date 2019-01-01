@@ -41,6 +41,9 @@ BITLOCKER_NAME="bitlocker.$(basename ${BITLOCKER_PARTITION})"
 BITLOCKER_FILE="/tmp/${BITLOCKER_NAME}"
 BITLOCKER_MOUNT="/Volumes/${BITLOCKER_NAME}"
 
+echo "Unmounting ${BITLOCKER_PARTITION} in case it is mounted"
+diskutil unmount ${BITLOCKER_PARTITION}
+
 echo "Unlocking ${BITLOCKER_PARTITION} to ${BITLOCKER_FILE}"
 dislocker -v -V "${BITLOCKER_PARTITION}" -u "${BITLOCKER_FILE}"
 if [[ ${?} != 0 ]]
