@@ -21,6 +21,9 @@ git-crypt unlock
 # xml for diff purposes.
 git config diff.plist.textconv 'git plutil-toxml1'
 
+# submodules
+git submodule update --init
+
 # GNU Stow
 STOW_PACKAGES_HOME=(git gnupg vim zsh)
 STOW_PACKAGES_LOCALBIN=(bin)
@@ -32,10 +35,15 @@ for stow_package in "${STOW_PACKAGES_LOCALBIN[@]}"; do
   stow -t /usr/local/bin $stow_package
 done
 
+# XDG stow known folders in xdg-configs
+mkdir -p $HOME/.config
+stow -t $HOME/.config xdg-configs
+
 # ZSH themes and plugins
 cp "zsh/themes/"*".zsh-theme" "${HOME}/.oh-my-zsh/custom/themes"
+# I believe this has to be a clone and not a submodule since oh-my-zsh is a submodule
 git clone https://github.com/zsh-users/zsh-completions "${HOME}/.oh-my-zsh/custom/plugins/zsh-completions"
 
 # Install Vundle plugins from .vimrc
-vim +PluginUpgrade +qall
+vim +PluginUpdate +qall
 
