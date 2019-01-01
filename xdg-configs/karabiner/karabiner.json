@@ -30,6 +30,14 @@
                     "simple_modifications": [
                         {
                             "from": {
+                                "key_code": "keypad_0"
+                            },
+                            "to": {
+                                "pointing_button": "button15"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "keypad_1"
                             },
                             "to": {
@@ -102,14 +110,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_0"
-                            },
-                            "to": {
-                                "pointing_button": "button15"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "keypad_hyphen"
                             },
                             "to": {
@@ -122,6 +122,36 @@
                             },
                             "to": {
                                 "pointing_button": "button17"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 24672,
+                        "vendor_id": 65261
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_option"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
                             }
                         }
                     ]
