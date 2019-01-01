@@ -22,7 +22,7 @@ git-crypt unlock
 git config diff.plist.textconv 'git plutil-toxml1'
 
 # GNU Stow
-STOW_PACKAGES_HOME=(git vim zsh)
+STOW_PACKAGES_HOME=(git gnupg vim zsh)
 STOW_PACKAGES_LOCALBIN=(bin)
 
 for stow_package in "${STOW_PACKAGES_HOME[@]}"; do
