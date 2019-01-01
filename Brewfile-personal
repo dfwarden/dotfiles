@@ -1,0 +1,15 @@
+# This is for software that is provided/managed by SUNY
+# but that I still want on a personal machine.
+
+# Taps
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+
+# Casks
+cask "slack"
+cask "firefox"
+cask "google-chrome"
+cask "1password"
