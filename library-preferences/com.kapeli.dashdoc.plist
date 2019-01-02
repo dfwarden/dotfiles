@@ -1,0 +1,5368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleAPIReferenceDocsetPath</key>
+	<string>~/Library/Application Support/Dash/DocSets/Apple_API_Reference</string>
+	<key>BITApplicationDidEnterBackgroundTime</key>
+	<real>1546388242.7761259</real>
+	<key>BITApplicationWasLaunched</key>
+	<true/>
+	<key>DHCheatRepo</key>
+	<array>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Docker</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>Docker</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Docker</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/HTTP Header Fields</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.4</string>
+			<key>name</key>
+			<string>HTTP Header Fields</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>HTTP_Header_Fields</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>ohmyzsh</string>
+				<string>oh my zsh</string>
+				<string>terminal</string>
+				<string>shell</string>
+				<string>bash</string>
+				<string>zsh</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/OhMyZsh Git</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.5</string>
+			<key>name</key>
+			<string>Oh-My-Zsh Git</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Oh-My-Zsh_Git</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/GDB</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>GDB</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>GDB</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>terminal</string>
+				<string>shell</string>
+				<string>bash</string>
+				<string>zsh</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/tmux</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.1.0</string>
+			<key>name</key>
+			<string>tmux</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>tmux</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Python Format Strings</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.1</string>
+			<key>name</key>
+			<string>Python Format Strings</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Python_Format_Strings</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>chmod</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Unix File Permissions</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.2</string>
+			<key>name</key>
+			<string>Unix File Permissions</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Unix_File_Permissions</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>RegEx</string>
+				<string>reg ex</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Regular Expressions</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>Regular Expressions</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Regular_Expressions</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Vim</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.1.2</string>
+			<key>name</key>
+			<string>Vim</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Vim</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/YAML</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>YAML</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>YAML</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/openssl</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.1</string>
+			<key>name</key>
+			<string>openssl</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>openssl</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Keybaseio</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>Keybase.io</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Keybase.io</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>terminal</string>
+				<string>shell</string>
+				<string>bash</string>
+				<string>zsh</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Git</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.11</string>
+			<key>name</key>
+			<string>Git</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Git</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Dockerfile</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>Dockerfile</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Dockerfile</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>git-svn</string>
+				<string>git svn</string>
+				<string>git_svn</string>
+				<string>Git_Subversion</string>
+				<string>git-subversion</string>
+				<string>terminal</string>
+				<string>shell</string>
+				<string>bash</string>
+				<string>zsh</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Git Subversion</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.1</string>
+			<key>name</key>
+			<string>Git Subversion</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Git_Subversion</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/HTTP Status Codes</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.7</string>
+			<key>name</key>
+			<string>HTTP Status Codes</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>HTTP_Status_Codes</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Emoji</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.1</string>
+			<key>name</key>
+			<string>Emoji</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Emoji</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Font Awesome</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 4.7.0</string>
+			<key>name</key>
+			<string>Font Awesome</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Font_Awesome</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>mac os x startup keys</string>
+				<string>macosx startup keys</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Mac Startup Keys</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.4</string>
+			<key>name</key>
+			<string>Mac Startup Keys</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Mac_Startup_Keys</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/SQLite</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>SQLite</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>SQLite</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/PostgreSQL CLI</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.2</string>
+			<key>name</key>
+			<string>PostgreSQL CLI</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>PostgreSQL_CLI</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/strftime Format Codes</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>strftime Format Codes</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>strftime_Format_Codes</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>terminal</string>
+				<string>shell</string>
+				<string>bash</string>
+				<string>zsh</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/iTerm2</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.5</string>
+			<key>name</key>
+			<string>iTerm2</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>iTerm2</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/MIME Types</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>MIME Types</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>MIME_Types</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>apple</string>
+				<string>cocoa touch</string>
+				<string>iphone</string>
+				<string>ipad</string>
+				<string>ios</string>
+				<string>mac os x</string>
+				<string>macosx</string>
+				<string>objc</string>
+				<string>objectivec</string>
+				<string>objective c</string>
+				<string>objective-c</string>
+				<string>swift</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/Xcode</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.8</string>
+			<key>name</key>
+			<string>Xcode</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>Xcode_Shortcuts</string>
+		</dict>
+		<dict>
+			<key>aliases</key>
+			<array>
+				<string>terminal</string>
+				<string>shell</string>
+				<string>bash</string>
+				<string>zsh</string>
+			</array>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Cheat Sheets/screen</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>Global: 1.0.9, Individual: 1.0.0</string>
+			<key>name</key>
+			<string>screen</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>uniqueIdentifier</key>
+			<string>screen</string>
+		</dict>
+	</array>
+	<key>DHHUDSnippetsSplitViewSave</key>
+	<array>
+		<real>26</real>
+		<real>74</real>
+	</array>
+	<key>DHHUDSplitViewSave</key>
+	<array>
+		<real>50</real>
+		<real>50</real>
+	</array>
+	<key>DHJavaRepo</key>
+	<array>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusscript</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>3.14.0-04</string>
+			<key>name</key>
+			<string>org.sonatype.nexus:nexus-script</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus:nexus-script</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexussecurity</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>2.14.11-01</string>
+			<key>name</key>
+			<string>org.sonatype.nexus:nexus-security</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus:nexus-security</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexuspluginsnexusscriptplugin</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>3.14.0-04</string>
+			<key>name</key>
+			<string>org.sonatype.nexus.plugins:nexus-script-plugin</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus.plugins:nexus-script-plugin</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrestapimodel</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>2.2.1</string>
+			<key>name</key>
+			<string>org.sonatype.nexus:nexus-rest-api-model</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus:nexus-rest-api-model</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrest</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>3.14.0-04</string>
+			<key>name</key>
+			<string>org.sonatype.nexus:nexus-rest</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus:nexus-rest</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexuscore</string>
+			<key>hasVersionsInstalled</key>
+			<integer>1</integer>
+			<key>installed</key>
+			<false/>
+			<key>name</key>
+			<string>org.sonatype.nexus:nexus-core</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus:nexus-core</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrepository</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>3.14.0-04</string>
+			<key>name</key>
+			<string>org.sonatype.nexus:nexus-repository</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>org.sonatype.nexus:nexus-repository</string>
+		</dict>
+	</array>
+	<key>DHRMainSplitViewSave</key>
+	<array>
+		<real>25.026737213134766</real>
+		<real>74.973258972167969</real>
+	</array>
+	<key>DHRMethodsSplitViewSave</key>
+	<array>
+		<real>46.945899963378906</real>
+		<real>53.054100036621094</real>
+	</array>
+	<key>DHStandardSnippetsSplitSave</key>
+	<array>
+		<real>26</real>
+		<real>74</real>
+	</array>
+	<key>DHSyncFileHash</key>
+	<string>1546388269.977949 26988</string>
+	<key>DHTabRestorationVersion</key>
+	<string>1.0.9</string>
+	<key>DHUserRepo</key>
+	<array>
+		<dict>
+			<key>authorLinkHref</key>
+			<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/PostGIS#readme</string>
+			<key>authorLinkText</key>
+			<string>Drew Dara-Abrams</string>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/User Contributed/PostGIS</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>installedVersion</key>
+			<string>2.1</string>
+			<key>name</key>
+			<string>PostGIS</string>
+			<key>platform</key>
+			<string>usercontribPostGIS</string>
+			<key>uniqueIdentifier</key>
+			<string>PostGIS</string>
+		</dict>
+	</array>
+	<key>DHWebViewIsDark</key>
+	<false/>
+	<key>HockeySDKAutomaticallySendCrashReports</key>
+	<false/>
+	<key>HockeySDKCrashReportActivated</key>
+	<true/>
+	<key>NSAppSleepDisabled</key>
+	<true/>
+	<key>NSDisabledCharacterPaletteMenuItem</key>
+	<true/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Library/Mobile Documents/com~apple~CloudDocs/Dash</string>
+	<key>NSNavPanelExpandedSizeForOpenMode</key>
+	<string>{712, 448}</string>
+	<key>NSSplitView Subview Frames DHSplitView</key>
+	<array>
+		<string>0.000000, 0.000000, 249.000000, 490.000000, NO</string>
+		<string>250.000000, 0.000000, 754.000000, 490.000000, NO</string>
+	</array>
+	<key>NSWindow Frame DHRegularWindow</key>
+	<string>1360 539 936 616 0 0 2560 1417 </string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2019-01-01T22:03:08Z</date>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+	<key>VersionedDHJavaRepo - org.sonatype.nexus:nexus-core</key>
+	<array>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/Versioned DocSets/orgsonatypenexusnexus-core - DHJavaRepo/3-4-0-02</string>
+			<key>hasVersionsInstalled</key>
+			<integer>0</integer>
+			<key>installed</key>
+			<true/>
+			<key>isVersionedEntry</key>
+			<true/>
+			<key>name</key>
+			<string>3.4.0-02</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>uniqueIdentifier</key>
+			<string>3.4.0-02</string>
+		</dict>
+	</array>
+	<key>WebIconDatabaseDirectoryDefaultsKey</key>
+	<string>/Users/dfwarden/Library/Application Support/Dash/Data/Favicons</string>
+	<key>WebIconDatabaseEnabled</key>
+	<true/>
+	<key>WebKitDeveloperExtras</key>
+	<true/>
+	<key>WebKitStoreWebDataForBackup</key>
+	<true/>
+	<key>alfredVersion3</key>
+	<true/>
+	<key>annoFirstRun2</key>
+	<true/>
+	<key>annotationsAreShown</key>
+	<true/>
+	<key>automaticallyUpdate</key>
+	<true/>
+	<key>cKeyCode</key>
+	<integer>8</integer>
+	<key>dashSyncMigratedToPackage</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHCheatRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHClojureRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHCocoaRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHDartRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHGitHubRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHGoRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHHaskellRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHHexRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHJavaRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHPhpRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHRubyRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHScalaRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHStackOverflowRepo</key>
+	<true/>
+	<key>didAddInitialInstalledFeeds - DHUserRepo</key>
+	<true/>
+	<key>didEnableWebInspector</key>
+	<true/>
+	<key>didFirstRun</key>
+	<true/>
+	<key>didPerformLatencyTestsBefore</key>
+	<true/>
+	<key>didRearrangeDocsets</key>
+	<true/>
+	<key>didRearrangeDocsets2</key>
+	<true/>
+	<key>didRefreshServices - com.kapeli.dashdoc</key>
+	<true/>
+	<key>didResolveDocsetSymlinks</key>
+	<true/>
+	<key>didSetAsDefaultDocsetViewer_v3</key>
+	<true/>
+	<key>didSuppressDownloadDocsetsAlert</key>
+	<true/>
+	<key>docsetPlaygroundsEnabled</key>
+	<true/>
+	<key>docsetPlaygroundsFirstRun</key>
+	<true/>
+	<key>docsets</key>
+	<array>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Docker</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Docker/Docker.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Docker/Docker.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>docker</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>docker</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>HTTP Header Fields</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Header Fields/HTTP_Header_Fields.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Header Fields/HTTP_Header_Fields.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>http</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>http</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Regular Expressions</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Regular Expressions/Regular_Expressions.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Regular Expressions/Regular_Expressions.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>regex</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>regex</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Unix File Permissions</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Unix File Permissions/Unix_File_Permissions.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Unix File Permissions/Unix_File_Permissions.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>ufp</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>ufp</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Python Format Strings</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Python Format Strings/Python_Format_Strings.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Python Format Strings/Python_Format_Strings.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>pyfmt</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>pyfmt</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>tmux</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/tmux/tmux.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/tmux/tmux.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>tmux</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>tmux</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Oh-My-Zsh Git</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/OhMyZsh Git/Oh-My-Zsh_Git.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/OhMyZsh Git/Oh-My-Zsh_Git.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>ohmyzsh</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>ohmyzsh</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Git</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git/Git.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git/Git.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>git</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>git</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>GDB</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/GDB/GDB.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/GDB/GDB.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>gdb</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>gdb</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Dockerfile</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Dockerfile/Dockerfile.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Dockerfile/Dockerfile.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>dockerfile</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>dockerfile</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>YAML</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/YAML/YAML.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/YAML/YAML.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>yaml</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>yaml</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>openssl</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/openssl/openssl.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/openssl/openssl.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>openssl</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>openssl</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Vim</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Vim/Vim.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Vim/Vim.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>vimc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>vimc</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Mac Startup Keys</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Mac Startup Keys/Mac_Startup_Keys.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Mac Startup Keys/Mac_Startup_Keys.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>macstartup</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>macstartup</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>SQLite</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/SQLite/SQLite.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/SQLite/SQLite.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>sqlite</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>sqlite</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Keybase.io</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Keybaseio/Keybase.io.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Keybaseio/Keybase.io.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>keybase</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>keybase</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Emoji</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Emoji/Emoji.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Emoji/Emoji.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>emoji</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>emoji</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Font Awesome</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Font Awesome/Font_Awesome.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Font Awesome/Font_Awesome.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>fa</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>fa</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>PostgreSQL CLI</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/PostgreSQL CLI/PostgreSQL_CLI.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/PostgreSQL CLI/PostgreSQL_CLI.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>postgres</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>postgres</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>iTerm2</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/iTerm2/iTerm2.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/iTerm2/iTerm2.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>iterm</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>iterm</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>strftime Format Codes</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/strftime Format Codes/strftime_Format_Codes.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/strftime Format Codes/strftime_Format_Codes.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>strftime</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>strftime</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Xcode</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Xcode/Xcode_Shortcuts.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Xcode/Xcode_Shortcuts.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>xcode</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>xcode</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>screen</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/screen/screen.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/screen/screen.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>playURLChecked</key>
+			<true/>
+			<key>pluginKeyword</key>
+			<string>screen</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>screen</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>Git Subversion</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git Subversion/Git_Subversion.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git Subversion/Git_Subversion.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>pluginKeyword</key>
+			<string>git-svn</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>git-svn</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>MIME Types</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/MIME Types/MIME_Types.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/MIME Types/MIME_Types.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>pluginKeyword</key>
+			<string>mime</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>mime</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/overview-summary.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus.plugins:nexus-script-plugin</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexuspluginsnexusscriptplugin/nexusscriptplugin.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexuspluginsnexusscriptplugin/nexusscriptplugin.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>cheatsheet</string>
+			<key>docsetName</key>
+			<string>HTTP Status Codes</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Status Codes/HTTP_Status_Codes.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Status Codes/HTTP_Status_Codes.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>cheatsheet</string>
+			<key>platform</key>
+			<string>cheatsheet</string>
+			<key>pluginKeyword</key>
+			<string>http</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>suggestedKeyword</key>
+			<string>http</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/index-all.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus:nexus-script</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusscript/nexusscript.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusscript/nexusscript.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>bash/index.html</string>
+			<key>docsetBundle</key>
+			<string>bash</string>
+			<key>docsetName</key>
+			<string>Bash</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Bash/Bash.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Bash/Bash.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>dashtoc</string>
+			<key>platform</key>
+			<string>bash</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/overview-summary.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus:nexus-security</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexussecurity/nexussecurity.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexussecurity/nexussecurity.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/overview-summary.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus:nexus-core 3.4.0-02</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Versioned DocSets/orgsonatypenexusnexus-core - DHJavaRepo/3-4-0-02/nexuscore.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Versioned DocSets/orgsonatypenexusnexus-core - DHJavaRepo/3-4-0-02/nexuscore.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>index.html</string>
+			<key>docsetBundle</key>
+			<string>postgis</string>
+			<key>docsetName</key>
+			<string>PostGIS</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/User Contributed/PostGIS/postgis.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/User Contributed/PostGIS/postgis.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>platform</key>
+			<string>usercontribPostGIS</string>
+			<key>pluginKeyword</key>
+			<string>postgis</string>
+			<key>shouldUseImage</key>
+			<true/>
+			<key>suggestedKeyword</key>
+			<string>postgis</string>
+			<key>version</key>
+			<real>1</real>
+			<key>webSearchKeyword</key>
+			<string>postgis</string>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>httpd-docs/index.html</string>
+			<key>docsetBundle</key>
+			<string>apache</string>
+			<key>docsetName</key>
+			<string>Apache HTTP Server</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apache_HTTP_Server/Apache_HTTP_Server.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apache_HTTP_Server/Apache_HTTP_Server.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<true/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>dashtoc</string>
+			<key>platform</key>
+			<string>apache</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/index-all.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus:nexus-rest</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrest/nexusrest.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrest/nexusrest.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/overview-summary.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus:nexus-repository</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrepository/nexusrepository.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrepository/nexusrepository.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash_javadoc/overview-summary.html</string>
+			<key>docsetBundle</key>
+			<string>javadoc</string>
+			<key>docsetName</key>
+			<string>org.sonatype.nexus:nexus-rest-api-model</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrestapimodel/NexusCoreRestAPIModel.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrestapimodel/NexusCoreRestAPIModel.docset/Contents/Resources/docSet.dsidx</string>
+			<key>hasGuides</key>
+			<false/>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>isProfileEnabled</key>
+			<true/>
+			<key>parseFamily</key>
+			<string>java</string>
+			<key>platform</key>
+			<string>javadoc</string>
+			<key>shouldUseImage</key>
+			<false/>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>dashIndexFilePath</key>
+			<string>dash-apple-api://load?index_page=1</string>
+			<key>declaredInStyle</key>
+			<string>originalName</string>
+			<key>docsetBundle</key>
+			<string>apple</string>
+			<key>docsetName</key>
+			<string>Apple API Reference</string>
+			<key>docsetPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apple_API_Reference/Apple_API_Reference.docset</string>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apple_API_Reference/Apple_API_Reference.docset/Contents/Resources/docSet.dsidx</string>
+			<key>isDash</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>isJavaScriptEnabled</key>
+			<false/>
+			<key>nameShorteningFamily</key>
+			<string>apple</string>
+			<key>parseFamily</key>
+			<string>dashtoc2</string>
+			<key>platform</key>
+			<string>apple</string>
+			<key>stackOverflowKeyword</key>
+			<string>[osx] or [ios] or [tvos] or [watch-os] or [watchkit] or [apple-watch]</string>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+	</array>
+	<key>docsetsAreExpanded</key>
+	<true/>
+	<key>docsetsAreExpandedFirstRun</key>
+	<true/>
+	<key>docsetsLabelShown</key>
+	<false/>
+	<key>doesntHaveAlfredWorkflow</key>
+	<true/>
+	<key>feeds</key>
+	<array>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/NET_Framework</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/NET_Framework.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/ActionScript</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/ActionScript.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Akka</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Akka.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Android</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Android.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Angular</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Angular.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/AngularJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/AngularJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ansible</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ansible.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Apache_HTTP_Server</string>
+			<key>docsetState</key>
+			<integer>2</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Apache_HTTP_Server.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+			<key>version</key>
+			<string>2.4.37</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Appcelerator_Titanium</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Appcelerator_Titanium.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Apple_API_Reference</string>
+			<key>docsetState</key>
+			<integer>2</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Apple_API_Reference.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+			<key>version</key>
+			<string>/8</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/AppleScript</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/AppleScript.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Arduino</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Arduino.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/AWS_JavaScript</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/AWS_JavaScript.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/BackboneJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/BackboneJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Bash</string>
+			<key>docsetState</key>
+			<integer>2</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Bash.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+			<key>version</key>
+			<string>/4</string>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Boost</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Boost.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Bootstrap_2</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Bootstrap_2.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Bootstrap_3</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Bootstrap_3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Bootstrap_4</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Bootstrap_4.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Bourbon</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Bourbon.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/C</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/C.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/C++</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/C++.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/CakePHP</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/CakePHP.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Cappuccino</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Cappuccino.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Chai</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Chai.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Chef</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Chef.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Clojure</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Clojure.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/CMake</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/CMake.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Cocos2D</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Cocos2D.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Cocos2D-X</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Cocos2D-X.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Cocos3D</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Cocos3D.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/CodeIgniter</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/CodeIgniter.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/CoffeeScript</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/CoffeeScript.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/ColdFusion</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/ColdFusion.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Common_Lisp</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Common_Lisp.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Compass</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Compass.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Cordova</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Cordova.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Corona</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Corona.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/CouchDB</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/CouchDB.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Craft</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Craft.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/CSS</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/CSS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/D3JS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/D3JS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Dart</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Dart.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Django</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Django.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Docker</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Docker.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Doctrine_ORM</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Doctrine_ORM.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Dojo</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Dojo.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/DOM</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/DOM.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Drupal_7</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Drupal_7.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Drupal_8</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Drupal_8.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/ElasticSearch</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/ElasticSearch.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Elixir</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Elixir.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Emacs_Lisp</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Emacs_Lisp.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/EmberJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/EmberJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Emmet</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Emmet.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Erlang</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Erlang.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Express</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Express.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/ExpressionEngine</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/ExpressionEngine.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/ExtJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/ExtJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Flask</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Flask.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Font_Awesome</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Font_Awesome.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Foundation</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Foundation.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Git</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Git.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/GLib</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/GLib.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Go</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Go.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Gradle_DSL</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Gradle_DSL.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Gradle_Java_API</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Gradle_Java_API.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Gradle_User_Guide</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Gradle_User_Guide.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Grails</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Grails.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Groovy</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Groovy.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Groovy_JDK</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Groovy_JDK.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Grunt</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Grunt.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Gulp</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Gulp.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Haml</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Haml.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Handlebars</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Handlebars.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Haskell</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Haskell.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/HTML</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/HTML.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ionic</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ionic.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/iOS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/iOS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Jasmine</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Jasmine.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_EE6</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_EE6.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_EE7</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_EE7.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_EE8</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_EE8.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_SE6</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_SE6.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_SE7</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_SE7.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_SE8</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_SE8.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_SE9</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_SE9.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_SE10</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_SE10.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Java_SE11</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Java_SE11.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/JavaScript</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/JavaScript.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Jekyll</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Jekyll.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Jinja</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Jinja.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Joomla</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Joomla.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/jQuery</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/jQuery.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/jQuery_Mobile</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/jQuery_Mobile.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/jQuery_UI</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/jQuery_UI.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Julia</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Julia.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/KnockoutJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/KnockoutJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Kobold2D</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Kobold2D.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Laravel</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Laravel.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/LaTeX</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/LaTeX.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Less</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Less.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Linux_Man_Pages</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Linux_Man_Pages.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Lo-Dash</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Lo-Dash.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Lua_5.1</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Lua_5.1.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Lua_5.2</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Lua_5.2.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Lua_5.3</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Lua_5.3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/macOS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/macOS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Man_Pages</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Man_Pages.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/MarionetteJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/MarionetteJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Markdown</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Markdown.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/MatPlotLib</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/MatPlotLib.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Meteor</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Meteor.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Mocha</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Mocha.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/MomentJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/MomentJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/MongoDB</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/MongoDB.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Mongoose</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Mongoose.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Mono</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Mono.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/MooTools</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/MooTools.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/MySQL</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/MySQL.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Neat</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Neat.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Nginx</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Nginx.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/NodeJS</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/NodeJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/NumPy</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/NumPy.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/OCaml</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/OCaml.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/OpenCV</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/OpenCV.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/OpenGL_2</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/OpenGL_2.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/OpenGL_3</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/OpenGL_3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/OpenGL_4</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/OpenGL_4.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Pandas</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Pandas.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Perl</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Perl.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Phalcon</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Phalcon.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/PhoneGap</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/PhoneGap.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/PHP</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/PHP.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/PHPUnit</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/PHPUnit.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Play_Java</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Play_Java.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Play_Scala</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Play_Scala.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Polymer.dart</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Polymer.dart.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/PostgreSQL</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/PostgreSQL.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Processing</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Processing.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/PrototypeJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/PrototypeJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Pug</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Pug.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Puppet</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Puppet.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Python_2</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Python_2.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Python_3</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Python_3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Qt_4</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Qt_4.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Qt_5</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Qt_5.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/R</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/R.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Racket</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Racket.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/React</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/React.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Redis</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Redis.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/RequireJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/RequireJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ruby</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ruby.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ruby_2</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ruby_2.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ruby_on_Rails_3</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ruby_on_Rails_3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ruby_on_Rails_4</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ruby_on_Rails_4.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Ruby_on_Rails_5</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/RubyMotion</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/RubyMotion.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Rust</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Rust.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SailsJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/SailsJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SaltStack</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/SaltStack.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Sass</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Sass.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Scala</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Scala.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SciPy</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/SciPy.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Semantic_UI</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Semantic_UI.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Sencha_Touch</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Sencha_Touch.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Sinon</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Sinon.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Smarty</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Smarty.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Sparrow</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Sparrow.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Spring_Framework</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Spring_Framework.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SproutCore</string>
+			<key>feedURL</key>
+			<string>http://docs.sproutcore.com/feeds/SproutCore.xml</string>
+			<key>isDashIncluded</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SQLAlchemy</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/SQLAlchemy.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SQLite</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/SQLite.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Statamic</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Statamic.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Stylus</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Stylus.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Susy</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Susy.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/SVG</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/SVG.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Swift</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Swift.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Symfony</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Symfony.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Tcl</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Tcl.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Tornado</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Tornado.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/tvOS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/tvOS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Twig</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Twig.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Twisted</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Twisted.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/TypeScript</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/TypeScript.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/TYPO3</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/TYPO3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/UnderscoreJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/UnderscoreJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Unity_3D</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Unity_3D.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Vagrant</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Vagrant.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Vim</string>
+			<key>docsetState</key>
+			<integer>1</integer>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Vim.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/VMware_vSphere</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/VMware_vSphere.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/VueJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/VueJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/watchOS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/watchOS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/WordPress</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/WordPress.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Xamarin</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Xamarin.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Xojo</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Xojo.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/XSLT</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/XSLT.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Yii</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Yii.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/YUI</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/YUI.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Zend_Framework_1</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Zend_Framework_1.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Zend_Framework_2</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Zend_Framework_2.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/Zend_Framework_3</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/Zend_Framework_3.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsetPath</key>
+			<string>~/Library/Application Support/Dash/DocSets/ZeptoJS</string>
+			<key>feedURL</key>
+			<string>http://kapeli.com/feeds/ZeptoJS.xml</string>
+			<key>isDashIncluded</key>
+			<true/>
+		</dict>
+	</array>
+	<key>firstLaunchDate</key>
+	<date>2018-12-31T01:05:52Z</date>
+	<key>foundDocsets</key>
+	<array>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Docker/Docker.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Header Fields/HTTP_Header_Fields.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Regular Expressions/Regular_Expressions.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Unix File Permissions/Unix_File_Permissions.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Python Format Strings/Python_Format_Strings.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/tmux/tmux.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/OhMyZsh Git/Oh-My-Zsh_Git.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git/Git.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/GDB/GDB.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Dockerfile/Dockerfile.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/YAML/YAML.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/openssl/openssl.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Vim/Vim.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Mac Startup Keys/Mac_Startup_Keys.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/SQLite/SQLite.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Keybaseio/Keybase.io.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Emoji/Emoji.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Font Awesome/Font_Awesome.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/PostgreSQL CLI/PostgreSQL_CLI.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/iTerm2/iTerm2.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/strftime Format Codes/strftime_Format_Codes.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Xcode/Xcode_Shortcuts.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/screen/screen.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git Subversion/Git_Subversion.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/MIME Types/MIME_Types.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexuspluginsnexusscriptplugin/nexusscriptplugin.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Status Codes/HTTP_Status_Codes.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusscript/nexusscript.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Bash/Bash.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexussecurity/nexussecurity.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Versioned DocSets/orgsonatypenexusnexus-core - DHJavaRepo/3-4-0-02/nexuscore.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/User Contributed/PostGIS/postgis.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apache_HTTP_Server/Apache_HTTP_Server.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrest/nexusrest.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrepository/nexusrepository.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrestapimodel/NexusCoreRestAPIModel.docset</string>
+		<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apple_API_Reference/Apple_API_Reference.docset</string>
+	</array>
+	<key>indexedDocsets</key>
+	<array>
+		<dict>
+			<key>checksum</key>
+			<string>1530897794.000000 - 32768v7</string>
+			<key>docsetIndex</key>
+			<integer>1</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Docker/Docker.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>342</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897848.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>2</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Header Fields/HTTP_Header_Fields.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>80</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1542184783.000000 - 24576v7</string>
+			<key>docsetIndex</key>
+			<integer>3</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Regular Expressions/Regular_Expressions.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>170</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898097.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>4</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Unix File Permissions/Unix_File_Permissions.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>57</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898007.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>5</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Python Format Strings/Python_Format_Strings.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>57</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1533761661.000000 - 24576v7</string>
+			<key>docsetIndex</key>
+			<integer>6</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/tmux/tmux.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>157</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897974.000000 - 32768v7</string>
+			<key>docsetIndex</key>
+			<integer>7</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/OhMyZsh Git/Oh-My-Zsh_Git.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>237</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897824.000000 - 20480v7</string>
+			<key>docsetIndex</key>
+			<integer>8</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git/Git.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>78</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897821.000000 - 32768v7</string>
+			<key>docsetIndex</key>
+			<integer>9</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/GDB/GDB.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>151</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897796.000000 - 8192v7</string>
+			<key>docsetIndex</key>
+			<integer>10</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Dockerfile/Dockerfile.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>20</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898127.000000 - 24576v7</string>
+			<key>docsetIndex</key>
+			<integer>11</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/YAML/YAML.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>104</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898155.000000 - 8192v7</string>
+			<key>docsetIndex</key>
+			<integer>12</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/openssl/openssl.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>24</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546362393.000000 - 69632v7</string>
+			<key>docsetIndex</key>
+			<integer>13</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Vim/Vim.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>375</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897907.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>14</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Mac Startup Keys/Mac_Startup_Keys.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>28</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898046.000000 - 24576v7</string>
+			<key>docsetIndex</key>
+			<integer>15</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/SQLite/SQLite.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>94</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1537357231.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>16</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Keybaseio/Keybase.io.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>76</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897810.000000 - 188416v7</string>
+			<key>docsetIndex</key>
+			<integer>17</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Emoji/Emoji.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>1696</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897819.000000 - 155648v7</string>
+			<key>docsetIndex</key>
+			<integer>18</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Font Awesome/Font_Awesome.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>1562</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897990.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>19</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/PostgreSQL CLI/PostgreSQL_CLI.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>37</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898148.000000 - 20480v7</string>
+			<key>docsetIndex</key>
+			<integer>20</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/iTerm2/iTerm2.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>106</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898169.000000 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>21</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/strftime Format Codes/strftime_Format_Codes.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>55</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1535197970.000000 - 24576v7</string>
+			<key>docsetIndex</key>
+			<integer>22</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Xcode/Xcode_Shortcuts.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>159</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530898165.000000 - 20480v7</string>
+			<key>docsetIndex</key>
+			<integer>23</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/screen/screen.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>85</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897827.000000 - 8192v7</string>
+			<key>docsetIndex</key>
+			<integer>24</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/Git Subversion/Git_Subversion.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>35</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897898.000000 - 57344v7</string>
+			<key>docsetIndex</key>
+			<integer>25</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/MIME Types/MIME_Types.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>448</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388230.915444 - 20480v7</string>
+			<key>docsetIndex</key>
+			<integer>26</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexuspluginsnexusscriptplugin/nexusscriptplugin.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>56</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1530897850.000000 - 20480v7</string>
+			<key>docsetIndex</key>
+			<integer>27</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Cheat Sheets/HTTP Status Codes/HTTP_Status_Codes.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>89</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388231.004270 - 8192v7</string>
+			<key>docsetIndex</key>
+			<integer>28</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusscript/nexusscript.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388231.247870 - 53248v7</string>
+			<key>docsetIndex</key>
+			<integer>29</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Bash/Bash.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>485</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388231.300980 - 126976v7</string>
+			<key>docsetIndex</key>
+			<integer>30</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexussecurity/nexussecurity.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>725</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388231.703835 - 98304v7</string>
+			<key>docsetIndex</key>
+			<integer>31</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Versioned DocSets/orgsonatypenexusnexus-core - DHJavaRepo/3-4-0-02/nexuscore.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>547</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388232.501141 - 28672v7</string>
+			<key>docsetIndex</key>
+			<integer>32</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/User Contributed/PostGIS/postgis.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>402</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388232.547271 - 94208v7</string>
+			<key>docsetIndex</key>
+			<integer>33</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/DocSets/Apache_HTTP_Server/Apache_HTTP_Server.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>899</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388232.695496 - 16384v7</string>
+			<key>docsetIndex</key>
+			<integer>34</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrest/nexusrest.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>52</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388234.192724 - 430080v7</string>
+			<key>docsetIndex</key>
+			<integer>35</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrepository/nexusrepository.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>2586</integer>
+		</dict>
+		<dict>
+			<key>checksum</key>
+			<string>1546388237.742116 - 172032v7</string>
+			<key>docsetIndex</key>
+			<integer>36</integer>
+			<key>docsetSQLPath</key>
+			<string>/Users/dfwarden/Library/Application Support/Dash/Java DocSets/orgsonatypenexusnexusrestapimodel/NexusCoreRestAPIModel.docset/Contents/Resources/docSet.dsidx</string>
+			<key>maxRowChecksum</key>
+			<integer>1125</integer>
+		</dict>
+	</array>
+	<key>initialScanCompleted</key>
+	<true/>
+	<key>installedDHCheatRepo</key>
+	<dict>
+		<key>Docker</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Docker</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Docker</string>
+			</dict>
+		</dict>
+		<key>Dockerfile</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Dockerfile</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Dockerfile</string>
+			</dict>
+		</dict>
+		<key>Emoji</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Emoji</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Emoji</string>
+			</dict>
+		</dict>
+		<key>Font_Awesome</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Font Awesome</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Font_Awesome</string>
+			</dict>
+		</dict>
+		<key>GDB</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>GDB</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>GDB</string>
+			</dict>
+		</dict>
+		<key>Git</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>terminal</string>
+					<string>shell</string>
+					<string>bash</string>
+					<string>zsh</string>
+				</array>
+				<key>name</key>
+				<string>Git</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Git</string>
+			</dict>
+		</dict>
+		<key>Git_Subversion</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:10Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>git-svn</string>
+					<string>git svn</string>
+					<string>git_svn</string>
+					<string>Git_Subversion</string>
+					<string>git-subversion</string>
+					<string>terminal</string>
+					<string>shell</string>
+					<string>bash</string>
+					<string>zsh</string>
+				</array>
+				<key>name</key>
+				<string>Git Subversion</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Git_Subversion</string>
+			</dict>
+		</dict>
+		<key>HTTP_Header_Fields</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>HTTP Header Fields</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>HTTP_Header_Fields</string>
+			</dict>
+		</dict>
+		<key>HTTP_Status_Codes</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:11Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>HTTP Status Codes</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>HTTP_Status_Codes</string>
+			</dict>
+		</dict>
+		<key>Keybase.io</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Keybase.io</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Keybase.io</string>
+			</dict>
+		</dict>
+		<key>MIME_Types</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:10Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>MIME Types</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>MIME_Types</string>
+			</dict>
+		</dict>
+		<key>Mac_Startup_Keys</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>mac os x startup keys</string>
+					<string>macosx startup keys</string>
+				</array>
+				<key>name</key>
+				<string>Mac Startup Keys</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Mac_Startup_Keys</string>
+			</dict>
+		</dict>
+		<key>Oh-My-Zsh_Git</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>ohmyzsh</string>
+					<string>oh my zsh</string>
+					<string>terminal</string>
+					<string>shell</string>
+					<string>bash</string>
+					<string>zsh</string>
+				</array>
+				<key>name</key>
+				<string>Oh-My-Zsh Git</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Oh-My-Zsh_Git</string>
+			</dict>
+		</dict>
+		<key>PostgreSQL_CLI</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>PostgreSQL CLI</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>PostgreSQL_CLI</string>
+			</dict>
+		</dict>
+		<key>Python_Format_Strings</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Python Format Strings</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Python_Format_Strings</string>
+			</dict>
+		</dict>
+		<key>Regular_Expressions</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>RegEx</string>
+					<string>reg ex</string>
+				</array>
+				<key>name</key>
+				<string>Regular Expressions</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Regular_Expressions</string>
+			</dict>
+		</dict>
+		<key>SQLite</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>SQLite</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>SQLite</string>
+			</dict>
+		</dict>
+		<key>Unix_File_Permissions</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>chmod</string>
+				</array>
+				<key>name</key>
+				<string>Unix File Permissions</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Unix_File_Permissions</string>
+			</dict>
+		</dict>
+		<key>Vim</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>Vim</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Vim</string>
+			</dict>
+		</dict>
+		<key>Xcode_Shortcuts</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>apple</string>
+					<string>cocoa touch</string>
+					<string>iphone</string>
+					<string>ipad</string>
+					<string>ios</string>
+					<string>mac os x</string>
+					<string>macosx</string>
+					<string>objc</string>
+					<string>objectivec</string>
+					<string>objective c</string>
+					<string>objective-c</string>
+					<string>swift</string>
+				</array>
+				<key>name</key>
+				<string>Xcode</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>Xcode_Shortcuts</string>
+			</dict>
+		</dict>
+		<key>YAML</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>YAML</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>YAML</string>
+			</dict>
+		</dict>
+		<key>iTerm2</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>terminal</string>
+					<string>shell</string>
+					<string>bash</string>
+					<string>zsh</string>
+				</array>
+				<key>name</key>
+				<string>iTerm2</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>iTerm2</string>
+			</dict>
+		</dict>
+		<key>openssl</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>openssl</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>openssl</string>
+			</dict>
+		</dict>
+		<key>screen</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>terminal</string>
+					<string>shell</string>
+					<string>bash</string>
+					<string>zsh</string>
+				</array>
+				<key>name</key>
+				<string>screen</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>screen</string>
+			</dict>
+		</dict>
+		<key>strftime_Format_Codes</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:09Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>name</key>
+				<string>strftime Format Codes</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>strftime_Format_Codes</string>
+			</dict>
+		</dict>
+		<key>tmux</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:08Z</date>
+			<key>entry</key>
+			<dict>
+				<key>aliases</key>
+				<array>
+					<string>terminal</string>
+					<string>shell</string>
+					<string>bash</string>
+					<string>zsh</string>
+				</array>
+				<key>name</key>
+				<string>tmux</string>
+				<key>platform</key>
+				<string>cheatsheet</string>
+				<key>uniqueIdentifier</key>
+				<string>tmux</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>installedDHCocoaRepo</key>
+	<dict/>
+	<key>installedDHDartRepo</key>
+	<dict/>
+	<key>installedDHGitHubRepo</key>
+	<dict/>
+	<key>installedDHGoRepo</key>
+	<dict/>
+	<key>installedDHHaskellRepo</key>
+	<dict/>
+	<key>installedDHHexRepo</key>
+	<dict/>
+	<key>installedDHJavaRepo</key>
+	<dict>
+		<key>org.sonatype.nexus.plugins:nexus-repository-maven</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:39Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus.plugins:nexus-repository-maven</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus.plugins:nexus-repository-maven</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus.plugins:nexus-script-plugin</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:10Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus.plugins:nexus-script-plugin</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus.plugins:nexus-script-plugin</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-core</key>
+		<dict>
+			<key>date</key>
+			<date>2018-12-10T15:47:29Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-core</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-core</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-main</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:40Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-main</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-main</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-repository</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:14Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-repository</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-repository</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-rest</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:12Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-rest</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-rest</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-rest-api-model</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:17Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-rest-api-model</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-rest-api-model</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-rest-client</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:41Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-rest-client</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-rest-client</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-rest-jackson2</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:41Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-rest-jackson2</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-rest-jackson2</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-script</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:11Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-script</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-script</string>
+			</dict>
+		</dict>
+		<key>org.sonatype.nexus:nexus-security</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:11Z</date>
+			<key>entry</key>
+			<dict>
+				<key>name</key>
+				<string>org.sonatype.nexus:nexus-security</string>
+				<key>platform</key>
+				<string>javadoc</string>
+				<key>uniqueIdentifier</key>
+				<string>org.sonatype.nexus:nexus-security</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>installedDHPhpRepo</key>
+	<dict/>
+	<key>installedDHRubyRepo</key>
+	<dict/>
+	<key>installedDHScalaRepo</key>
+	<dict/>
+	<key>installedDHStackOverflowRepo</key>
+	<dict/>
+	<key>installedDHUserRepo</key>
+	<dict>
+		<key>PostGIS</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:12Z</date>
+			<key>entry</key>
+			<dict>
+				<key>authorLinkHref</key>
+				<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/PostGIS#readme</string>
+				<key>authorLinkText</key>
+				<string>Drew Dara-Abrams</string>
+				<key>name</key>
+				<string>PostGIS</string>
+				<key>platform</key>
+				<string>usercontribPostGIS</string>
+				<key>uniqueIdentifier</key>
+				<string>PostGIS</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>installedFeeds</key>
+	<dict>
+		<key>http://kapeli.com/feeds/Apache_HTTP_Server.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:12Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Apple_API_Reference.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:49Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Arduino.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:51Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Bash.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2019-01-02T00:17:11Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Bootstrap_3.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:37Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/C++.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:47Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/C.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:51Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/CSS.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:59Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Django.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:06Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/ElasticSearch.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:20Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Flask.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:15Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Groovy.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:54Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Groovy_JDK.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:53Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/HTML.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:04Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/JavaScript.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:18Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Java_SE8.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:07Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Jinja.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:54Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Less.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:23Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Man_Pages.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:16Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Markdown.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:52Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/MySQL.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:51Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Nginx.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:07Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/NodeJS.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:06Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/PHP.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:27Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Perl.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:01Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:53Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Puppet.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:08Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Python_2.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:10Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Python_3.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:13Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/R.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:20Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Redis.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:18Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Ruby.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:29Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Ruby_2.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:58Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/SQLAlchemy.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:23Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/SQLite.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:38:51Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Swift.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:22Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/Vim.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:15Z</date>
+		</dict>
+		<key>http://kapeli.com/feeds/jQuery.xml</key>
+		<dict>
+			<key>date</key>
+			<date>2018-10-30T17:39:14Z</date>
+		</dict>
+	</dict>
+	<key>installedVersionedFeeds</key>
+	<dict/>
+	<key>isExpander</key>
+	<false/>
+	<key>isLoading</key>
+	<false/>
+	<key>isPinned</key>
+	<true/>
+	<key>isSearchingDocsets</key>
+	<false/>
+	<key>isTrial</key>
+	<false/>
+	<key>lastUpdateCheck</key>
+	<date>2019-01-01T22:03:38Z</date>
+	<key>lastUsedSyntax</key>
+	<string>Standard</string>
+	<key>latencyTestResults</key>
+	<array>
+		<dict>
+			<key>host</key>
+			<string>http://newyork.kapeli.com/feeds/</string>
+			<key>latency</key>
+			<real>0.040082931518554688</real>
+		</dict>
+		<dict>
+			<key>host</key>
+			<string>http://sanfrancisco.kapeli.com/feeds/</string>
+			<key>latency</key>
+			<real>0.084744930267333984</real>
+		</dict>
+		<dict>
+			<key>host</key>
+			<string>http://london.kapeli.com/feeds/</string>
+			<key>latency</key>
+			<real>0.11716294288635254</real>
+		</dict>
+		<dict>
+			<key>host</key>
+			<string>http://frankfurt.kapeli.com/feeds/</string>
+			<key>latency</key>
+			<real>0.12847697734832764</real>
+		</dict>
+		<dict>
+			<key>host</key>
+			<string>http://tokyo.kapeli.com/feeds/</string>
+			<key>latency</key>
+			<real>0.21547091007232666</real>
+		</dict>
+		<dict>
+			<key>host</key>
+			<string>http://singapore.kapeli.com/feeds/</string>
+			<key>latency</key>
+			<real>0.24414992332458496</real>
+		</dict>
+	</array>
+	<key>manPagesChecksum</key>
+	<string>1870244 - 28172 - v2</string>
+	<key>manPathsFound</key>
+	<string>/usr/local/share/man:/usr/share/man:/Library/Developer/CommandLineTools/usr/share/man:/usr/X11/man:/usr/local/man:/sw/share/man:/opt/local/share/man:/usr/X11R6/man:/usr/local/git/share/man:/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man</string>
+	<key>migratedV2Prefs</key>
+	<true/>
+	<key>pinkCount</key>
+	<integer>5</integer>
+	<key>placeholderDelimiter</key>
+	<string>__</string>
+	<key>profiles</key>
+	<array>
+		<dict>
+			<key>isActive</key>
+			<true/>
+			<key>isDefault</key>
+			<true/>
+			<key>name</key>
+			<string>Default</string>
+			<key>searchSnippets</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>Snippet</string>
+			<key>isActive</key>
+			<false/>
+			<key>name</key>
+			<string>Snippets Only</string>
+			<key>placeholder</key>
+			<string>Search Snippets</string>
+			<key>searchSnippets</key>
+			<true/>
+		</dict>
+	</array>
+	<key>rateShownThisRun</key>
+	<false/>
+	<key>searchKey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>-1</integer>
+		<key>modifiers</key>
+		<integer>8395520</integer>
+	</dict>
+	<key>searchUsingSelectedTextKey</key>
+	<dict>
+		<key>keyCode</key>
+		<integer>-1</integer>
+		<key>modifiers</key>
+		<integer>8395520</integer>
+	</dict>
+	<key>shouldRestoreTabs</key>
+	<true/>
+	<key>shouldShowStatusIcon</key>
+	<true/>
+	<key>shouldStartAtLogin</key>
+	<true/>
+	<key>shouldSyncBookmarks</key>
+	<true/>
+	<key>shouldSyncDocsets</key>
+	<true/>
+	<key>shouldSyncGeneral</key>
+	<true/>
+	<key>shouldSyncView</key>
+	<true/>
+	<key>shouldToggleMethods</key>
+	<true/>
+	<key>showInDock</key>
+	<false/>
+	<key>showSearchFallbacks</key>
+	<true/>
+	<key>showSearchFallbacksFirstRun</key>
+	<true/>
+	<key>snippetSQLPath</key>
+	<string>/Users/dfwarden/Library/Application Support/Dash/library.dash</string>
+	<key>statusIconHelloSuppressCheckboxState</key>
+	<true/>
+	<key>syncFolderPath</key>
+	<string>~/Library/Mobile Documents/com~apple~CloudDocs/Dash</string>
+	<key>tabBarSelectedIndex</key>
+	<integer>0</integer>
+	<key>tabRestoFirstRun</key>
+	<true/>
+	<key>uninstalledDHCheatRepo</key>
+	<dict/>
+	<key>uninstalledDHCocoaRepo</key>
+	<dict/>
+	<key>uninstalledDHDartRepo</key>
+	<dict/>
+	<key>uninstalledDHGitHubRepo</key>
+	<dict/>
+	<key>uninstalledDHGoRepo</key>
+	<dict/>
+	<key>uninstalledDHHaskellRepo</key>
+	<dict/>
+	<key>uninstalledDHHexRepo</key>
+	<dict/>
+	<key>uninstalledDHJavaRepo</key>
+	<dict/>
+	<key>uninstalledDHPhpRepo</key>
+	<dict/>
+	<key>uninstalledDHRubyRepo</key>
+	<dict/>
+	<key>uninstalledDHScalaRepo</key>
+	<dict/>
+	<key>uninstalledDHStackOverflowRepo</key>
+	<dict/>
+	<key>uninstalledDHUserRepo</key>
+	<dict/>
+	<key>uninstalledFeeds</key>
+	<dict/>
+	<key>uninstalledVersionedFeeds</key>
+	<dict/>
+	<key>vKeyCode</key>
+	<integer>9</integer>
+	<key>versionedInstalledDHCheatRepo</key>
+	<dict/>
+	<key>versionedInstalledDHCocoaRepo</key>
+	<dict/>
+	<key>versionedInstalledDHDartRepo</key>
+	<dict/>
+	<key>versionedInstalledDHGitHubRepo</key>
+	<dict/>
+	<key>versionedInstalledDHGoRepo</key>
+	<dict/>
+	<key>versionedInstalledDHHaskellRepo</key>
+	<dict/>
+	<key>versionedInstalledDHHexRepo</key>
+	<dict/>
+	<key>versionedInstalledDHJavaRepo</key>
+	<dict>
+		<key>org.sonatype.nexus:nexus-core</key>
+		<dict>
+			<key>3.4.0-02</key>
+			<dict>
+				<key>date</key>
+				<date>2019-01-02T00:17:11Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>org.sonatype.nexus:nexus-core</string>
+					<key>platform</key>
+					<string>javadoc</string>
+					<key>uniqueIdentifier</key>
+					<string>org.sonatype.nexus:nexus-core</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>versionedInstalledDHPhpRepo</key>
+	<dict/>
+	<key>versionedInstalledDHRubyRepo</key>
+	<dict/>
+	<key>versionedInstalledDHScalaRepo</key>
+	<dict/>
+	<key>versionedInstalledDHStackOverflowRepo</key>
+	<dict/>
+	<key>versionedInstalledDHUserRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHCheatRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHCocoaRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHDartRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHGitHubRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHGoRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHHaskellRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHHexRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHJavaRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHPhpRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHRubyRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHScalaRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHStackOverflowRepo</key>
+	<dict/>
+	<key>versionedUninstalledDHUserRepo</key>
+	<dict/>
+	<key>webSearches</key>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>DuckDuckGo</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<false/>
+			<key>name</key>
+			<string>DuckDuckGo</string>
+			<key>url</key>
+			<string>https://duckduckgo.com/?q={query}&amp;ia=web</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>Stack Overflow</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Stack Overflow</string>
+			<key>url</key>
+			<string>https://stackoverflow.com/search?q={query}</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>Google</string>
+			<key>isDefault</key>
+			<true/>
+			<key>isEnabled</key>
+			<true/>
+			<key>name</key>
+			<string>Google</string>
+			<key>url</key>
+			<string>https://www.google.com/search?q={query}</string>
+		</dict>
+	</array>
+	<key>windowStyle</key>
+	<string>Standard</string>
+	<key>windowStyleHUDOverwrite</key>
+	<true/>
+</dict>
+</plist>
