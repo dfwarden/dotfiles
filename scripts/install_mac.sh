@@ -3,6 +3,16 @@
 # Default to show you everything the script is doing.
 set -x
 
+# Better Touch Tool
+LAS="${HOME}/Library/Application Support"
+BTT="${LAS}/BetterTouchTool"
+DASH="${LAS}/Dash"
+mkdir -p $BTT $DASH/License
+stow -t $LAS application-support
+
+# Stow ~/Library/Preferences
+stow -t $HOME/Library/Preferences library-preferences
+
 brew bundle
 
 # make sure zsh is current shell
@@ -10,12 +20,6 @@ CURRENT_SHELL=$(dscl . -read /Users/${USER} UserShell | awk '{print $2}')
 if [ "$CURRENT_SHELL" != "/bin/zsh" ]; then
     chsh -s $(which zsh) ${USER}
 fi
-
-# Better Touch Tool
-BTT="${HOME}/Library/Application Support/BetterTouchTool"
-mkdir -p $BTT
-stow bettertouchtool -t $BTT
-stow library-preferences -t $HOME/Library/Preferences
 
 # Set up LoginItems
 loginitems -a BetterTouchTool
