@@ -41,6 +41,7 @@ cask "yujitach-menumeters"
 cask "karabiner-elements"
 cask "fugu"
 cask "plex-media-player"
+cask "owncloud"
 cask "airtame"
 cask "gas-mask"
 cask "vmware-remote-console"
@@ -55,3 +56,4 @@ mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Twitterrific', id: 1289378661
 mas 'Todoist', id: 585829637
 mas 'BarTunes', id: 444425546
+mas 'Trello', id: 1278508951
