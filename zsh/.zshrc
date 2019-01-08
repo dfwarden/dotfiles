@@ -47,7 +47,7 @@ export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --
 export GOPATH=$HOME/src/golang
 
 # Default to homebrew ruby
-export PATH=/usr/local/opt/ruby/bin:$PATH
+export PATH=/usr/local/opt/ruby/libexec/gembin:/usr/local/opt/ruby/bin:$PATH
 
 # Default to homebrew openssl binary
 export PATH=/usr/local/opt/openssl/bin:$PATH
