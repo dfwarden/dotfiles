@@ -7,6 +7,10 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
+tap "osx-cross/arm"
+
+# Brews
+brew "arm-gcc-bin"
 
 # Casks
 cask "slack"
