@@ -115,6 +115,20 @@ done
 # Set correct scroll direction for mice wheels
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
+# Messages.app
+defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict \
+    automaticDashSubstitutionEnabled -bool false \
+    automaticDataDetectionEnabled -bool false \
+    automaticEmojiSubstitutionEnabledLegacy -bool false \
+    automaticEmojiSubstitutionEnablediMessage -bool false \
+    automaticLinkDetectionEnabled -bool false \
+    automaticQuoteSubstitutionEnabled -bool false \
+    automaticSpellingCorrectionEnabled -bool false \
+    automaticTextReplacementEnabled -bool true \
+    continuousSpellCheckingEnabled -bool true \
+    grammarCheckingEnabled -bool false \
+    smartInsertDeleteEnabled -bool true
+
 # Dock & Dashboard
 defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock autohide -bool true
