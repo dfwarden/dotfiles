@@ -11,6 +11,7 @@ tap "osx-cross/arm"
 
 # Brews
 brew "arm-gcc-bin"
+brew "teensy_loader_cli"
 
 # Casks
 cask "slack"
