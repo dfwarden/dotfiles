@@ -8,9 +8,12 @@ tap "homebrew/services"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "osx-cross/arm"
+tap "osx-cross/avr"
 
 # Brews
 brew "arm-gcc-bin"
+brew "avr-gcc"
+brew "dfu-programmer"
 brew "teensy_loader_cli"
 
 # Casks
