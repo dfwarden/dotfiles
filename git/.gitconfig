@@ -1,10 +1,14 @@
 [alias]
-	email-guess = !. ~/.git_scripts/email-guess.sh
-	plutil-toxml1 = !. ~/.git_scripts/plutil-toxml1.sh
+    # Script-based aliases
+    email-guess = !. ~/.git_scripts/email-guess.sh
+    plutil-toxml1 = !. ~/.git_scripts/plutil-toxml1.sh
+
+    # Git internal aliases
+    branches = branch -a -vv
 [init]
-	templatedir = ~/.git_templates/
+    templatedir = ~/.git_templates/
 [user]
-	name = David Warden
+    name = David Warden
 [pager]
     branch = false
 [commit]
