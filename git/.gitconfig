@@ -5,6 +5,9 @@
 
     # Git internal aliases
     branches = branch -a -vv
+
+    # Fast-forward _only_
+    ff = pull --ff-only
 [init]
     templatedir = ~/.git_templates/
 [user]
