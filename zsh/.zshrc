@@ -52,6 +52,14 @@ export PATH=/usr/local/opt/ruby/libexec/gembin:/usr/local/opt/ruby/bin:$PATH
 # Default to homebrew openssl binary
 export PATH=/usr/local/opt/openssl/bin:$PATH
 
+# {{{ Aliases for lsd, better version of ls
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+# }}}
+
 # {{{ Vim-like hjkl line movements and line manipuation
 bindkey '^H' beginning-of-line
 bindkey '^J' backward-word
