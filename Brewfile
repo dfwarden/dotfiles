@@ -4,7 +4,7 @@ tap "homebrew/bundle"
 tap "homebrew/services"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "caskroom/fonts"
+tap "homebrew/cask-fonts"
 tap "mas-cli/tap"
 tap "ojford/formulae"
 
@@ -48,6 +48,7 @@ cask "airtame"
 cask "gas-mask"
 cask "vmware-remote-console"
 cask "font-source-code-pro-for-powerline"
+cask "font-hack-nerd-font"
 
 # Dislocker (FUSE + Microsoft Bitlocker) requires osxfuse cask
 cask "osxfuse"
