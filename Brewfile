@@ -28,6 +28,7 @@ brew "python"
 brew "ruby"
 brew "golang"
 brew "libav"
+brew "lsd"
 brew "postgresql"
 brew "youtube-dl"
 
