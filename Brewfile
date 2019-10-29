@@ -7,6 +7,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/cask-fonts"
 tap "mas-cli/tap"
 tap "ojford/formulae"
+tap "puppetlabs/puppet"
 
 # Brew packages
 brew "git-crypt"
@@ -49,6 +50,8 @@ cask "gas-mask"
 cask "vmware-remote-console"
 cask "font-source-code-pro-for-powerline"
 cask "font-hack-nerd-font"
+cask "docker"
+cask "powershell"
 
 # Dislocker (FUSE + Microsoft Bitlocker) requires osxfuse cask
 cask "osxfuse"
