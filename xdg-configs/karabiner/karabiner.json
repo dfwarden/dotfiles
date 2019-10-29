@@ -31,7 +31,7 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "keypad_0"
+                                "key_code": "0"
                             },
                             "to": {
                                 "pointing_button": "button15"
@@ -39,7 +39,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_1"
+                                "key_code": "1"
                             },
                             "to": {
                                 "pointing_button": "button6"
@@ -47,7 +47,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_2"
+                                "key_code": "2"
                             },
                             "to": {
                                 "pointing_button": "button7"
@@ -55,7 +55,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_3"
+                                "key_code": "3"
                             },
                             "to": {
                                 "pointing_button": "button8"
@@ -63,7 +63,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_4"
+                                "key_code": "4"
                             },
                             "to": {
                                 "pointing_button": "button9"
@@ -71,7 +71,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_5"
+                                "key_code": "5"
                             },
                             "to": {
                                 "pointing_button": "button10"
@@ -79,7 +79,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_6"
+                                "key_code": "6"
                             },
                             "to": {
                                 "pointing_button": "button11"
@@ -87,7 +87,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_7"
+                                "key_code": "7"
                             },
                             "to": {
                                 "pointing_button": "button12"
@@ -95,7 +95,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_8"
+                                "key_code": "8"
                             },
                             "to": {
                                 "pointing_button": "button13"
@@ -103,7 +103,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_9"
+                                "key_code": "9"
                             },
                             "to": {
                                 "pointing_button": "button14"
@@ -111,7 +111,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_hyphen"
+                                "key_code": "hyphen"
                             },
                             "to": {
                                 "pointing_button": "button16"
@@ -119,7 +119,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "keypad_plus"
+                                "key_code": "equal_sign"
                             },
                             "to": {
                                 "pointing_button": "button17"
@@ -156,6 +156,19 @@
                             }
                         }
                     ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 636,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -257,6 +270,9 @@
                 }
             ],
             "name": "Default profile",
+            "parameters": {
+                "delay_milliseconds_before_open_device": 1000
+            },
             "selected": true,
             "simple_modifications": [
                 {
@@ -269,7 +285,8 @@
                 }
             ],
             "virtual_hid_keyboard": {
-                "country_code": 0
+                "country_code": 0,
+                "mouse_key_xy_scale": 100
             }
         }
     ]
