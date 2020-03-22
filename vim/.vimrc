@@ -17,7 +17,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'rizzatti/dash.vim'
 Plugin 'rodjek/vim-puppet'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'morhetz/gruvbox'
 Bundle 'PProvost/vim-ps1'
 
 " All of your Plugins must be added before the following line
@@ -94,10 +93,6 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " Colorscheme
 set background=dark
-" Theme options need to be set before setting colorscheme
-let g:gruvbox_contrast_dark = 'medium'
-let g:gruvbox_number_column = 'bg1'
-colorscheme gruvbox
 
 " Airline plugin config
 let g:airline#extensions#tabline#enabled = 1
