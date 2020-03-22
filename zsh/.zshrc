@@ -4,6 +4,9 @@ umask 0022
 # Make less more powerful (https://www.topbug.net/blog/2016/09/27/make-gnu-less-more-powerful/)
 export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 
+# XDG configs
+export XDG_CONFIG_HOME="${HOME}/.config"
+
 # Bullet Train theme settings
 BULLETTRAIN_TIME_BG='red'
 BULLETTRAIN_TIME_FG='white'
@@ -12,6 +15,8 @@ BULLETTRAIN_CONTEXT_FG='white'
 BULLETTRAIN_CONTEXT_DEFAULT_USER='warden'
 BULLETTRAIN_EXEC_TIME_ELAPSED='2'
 
+# Tmux use XDG config location
+alias tmux='tmux -f "${XDG_CONFIG_HOME}/tmux/tmux.conf"'
 
 # Load Antigen (https://github.com/zsh-users/antigen)
 source ~/.zsh/antigen.zsh
