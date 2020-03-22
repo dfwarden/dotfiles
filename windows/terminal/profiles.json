@@ -132,7 +132,7 @@
         { "command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+h" },
         { "command": { "action": "moveFocus", "direction": "right" }, "keys": "alt+l" },
         { "command": { "action": "moveFocus", "direction": "up" }, "keys": "alt+k" },
-        { "command": "nextTab", "keys": "alt+shift+h" },
+        { "command": "prevTab", "keys": "alt+shift+h" },
         { "command": "nextTab", "keys": "alt+shift+l" },
         { "command": "closePane", "keys": "alt+shift+w" },
         { "command": "newTab", "keys": "alt+shift+t" }
