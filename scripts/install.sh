@@ -39,11 +39,6 @@ done
 mkdir -p $HOME/.config
 stow -t $HOME/.config xdg-configs
 
-# ZSH themes and plugins
-cp "zsh/themes/"*".zsh-theme" "${HOME}/.oh-my-zsh/custom/themes"
-# I believe this has to be a clone and not a submodule since oh-my-zsh is a submodule
-git clone https://github.com/zsh-users/zsh-completions "${HOME}/.oh-my-zsh/custom/plugins/zsh-completions"
-
 # Install Vundle plugins from .vimrc
 vim +PluginUpdate +qall
 
