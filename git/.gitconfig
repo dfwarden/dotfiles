@@ -1,7 +1,7 @@
 [alias]
     # Script-based aliases
-    email-guess = !. ~/.git_scripts/email-guess.sh
-    plutil-toxml1 = !. ~/.git_scripts/plutil-toxml1.sh
+    email-guess = ! ~/.git_scripts/email-guess.sh
+    plutil-toxml1 = ! ~/.git_scripts/plutil-toxml1.sh
 
     # Git internal aliases
     branches = branch -a -vv
