@@ -1,0 +1,12 @@
+# Try to canonicalize hostnames to better target geneseo.edu hosts.
+CanonicalizeHostname yes
+CanonicalDomains geneseo.edu
+CanonicalizeFallbackLocal yes
+AddKeysToAgent yes
+
+Host github.com
+    IdentityFile ~/.ssh/warden_personal_ed25519
+    IdentityFile ~/.ssh/warden_personal_rsa
+
+Match canonical host="*.geneseo.edu"
+    IdentityFile ~/.ssh/warden_work_rsa

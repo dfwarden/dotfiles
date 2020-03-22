@@ -21,8 +21,10 @@ antigen use oh-my-zsh
 
 # Bundles from oh-my-zsh
 antigen bundle z
+antigen bundle ssh-agent
 
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-completions
 
 antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 
