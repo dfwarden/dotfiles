@@ -111,18 +111,18 @@
                         },
                         {
                             "from": {
-                                "key_code": "hyphen"
-                            },
-                            "to": {
-                                "pointing_button": "button16"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "equal_sign"
                             },
                             "to": {
                                 "pointing_button": "button17"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "hyphen"
+                            },
+                            "to": {
+                                "pointing_button": "button16"
                             }
                         }
                     ]
@@ -169,6 +169,28 @@
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
                     "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": true,
+                        "product_id": 8961,
+                        "vendor_id": 4617
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": {
+                                "key_code": "caps_lock"
+                            }
+                        }
+                    ]
                 }
             ],
             "fn_function_keys": [
