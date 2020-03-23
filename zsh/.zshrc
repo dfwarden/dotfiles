@@ -14,6 +14,26 @@ BULLETTRAIN_CONTEXT_BG='magenta'
 BULLETTRAIN_CONTEXT_FG='white'
 BULLETTRAIN_CONTEXT_DEFAULT_USER='warden'
 BULLETTRAIN_EXEC_TIME_ELAPSED='2'
+# Disable NodeJS section
+BULLETTRAIN_PROMPT_ORDER=(
+  time
+  status
+  custom
+  context
+  dir
+  screen
+  perl
+  ruby
+  virtualenv
+  aws
+  go
+  rust
+  elixir
+  git
+  hg
+  cmd_exec_time
+)
+
 
 # Tmux use XDG config location
 alias tmux='tmux -f "${XDG_CONFIG_HOME}/tmux/tmux.conf"'
