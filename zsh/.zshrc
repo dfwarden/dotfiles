@@ -8,7 +8,7 @@ export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --
 export XDG_CONFIG_HOME="${HOME}/.config"
 
 # Bullet Train theme settings
-BULLETTRAIN_TIME_BG='red'
+BULLETTRAIN_TIME_BG='magenta'
 BULLETTRAIN_TIME_FG='white'
 BULLETTRAIN_CONTEXT_BG='magenta'
 BULLETTRAIN_CONTEXT_FG='white'
