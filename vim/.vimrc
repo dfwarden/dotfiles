@@ -11,12 +11,10 @@ call vundle#begin('~/.vim/bundle')
 " plugins of choice
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
-Plugin 'rizzatti/dash.vim'
 Plugin 'rodjek/vim-puppet'
-Plugin 'altercation/vim-colors-solarized'
+Plugin 'rizzatti/dash.vim'
 Bundle 'PProvost/vim-ps1'
 
 " All of your Plugins must be added before the following line
@@ -27,33 +25,23 @@ filetype plugin indent on    " required
 set t_Co=256
 
 syntax enable
-set shortmess+=r
-set showmode
-set showcmd
+set foldmethod=marker
 set ignorecase
 set smartcase
 set incsearch
-set gdefault
-set number
-set backspace=2
-set laststatus=2
+set gdefault  " substitutions default to global
+set number  " show the line number
+set backspace=2  " indent,eol,start
+set laststatus=2  " always show status line
 set statusline=%<%f\ %h%m%r%=%-20.(line=%l,col=%c%V,totlin=%L%)\%h%m%r%=%-40(,%n%Y%)\%P
-map J <PageDown>
-map K <PageUp>
-map W $
-map B ^
-map Y y$
-cmap w!! w !sudo tee % >/dev/null
-set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
-"set showbreak=↪
-let perl_fold = 1
-let python_fold = 1
-nnoremap <F5> :GundoToggle<CR>
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮,nbsp:␣,trail:•
+set list  " render the listchars whitespaces as those characters
 let mapleader = ","
 nmap ; :
 
-" White characters {{{
+" Whitespace characters {{{
 set autoindent
+set smartindent
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -61,6 +49,12 @@ set expandtab
 " }}}
 
 " Navigation & UI {{{
+
+map J <PageDown>
+map K <PageUp>
+map W $
+map B ^
+map Y y$
 
 " Begining & End of line in Normal mode
 noremap H ^
@@ -99,8 +93,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_tabs = 1
 let g:airline#extensions#tabline#show_buffers = 0
 let g:airline_powerline_fonts = 1
+let g:airline_theme='angr'
 "}}} End Navigation & UI
-
 
 "{{{ Syntastic
 set statusline+=%#warningmsg#
@@ -115,11 +109,9 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_puppet_puppetlint_args = "--no-80chars-check"
 "}}}
 
-
 "{{{ Dash
 nmap <silent> <leader>d <Plug>DashSearch
 "}}}
-
 
 "{{{ Diff highlight color
 " From: http://stackoverflow.com/a/13370967/4610994
