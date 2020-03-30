@@ -1,6 +1,10 @@
 # WSL defaults to 0000, so be explicit
 umask 0022
 
+# Look for Puppet executables and man pages
+export PATH="/opt/puppetlabs/bin:$PATH"
+export MANPATH="/opt/puppetlabs/client-tools/share/man:$MANPATH"
+
 # Make less more powerful (https://www.topbug.net/blog/2016/09/27/make-gnu-less-more-powerful/)
 export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 
