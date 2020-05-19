@@ -1,6 +1,7 @@
 # Initial Setup
 
   * Get required programs from your package manager of choice
+    * `zsh`
     * `git-crypt`
     * `stow`
     * `gnupg`
