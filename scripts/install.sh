@@ -25,14 +25,15 @@ git config diff.plist.textconv 'git plutil-toxml1'
 git submodule update --init
 
 # GNU Stow
-STOW_PACKAGES_HOME=(git gnupg vim zsh)
+STOW_PACKAGES_HOME=(git gnupg ssh vim zsh)
 STOW_PACKAGES_LOCALBIN=(bin)
 
 for stow_package in "${STOW_PACKAGES_HOME[@]}"; do
   stow -t ${HOME} $stow_package
 done
+mkdir ${HOME}/bin
 for stow_package in "${STOW_PACKAGES_LOCALBIN[@]}"; do
-  stow -t /usr/local/bin $stow_package
+  stow -t ${HOME}/bin $stow_package
 done
 
 # XDG stow known folders in xdg-configs
