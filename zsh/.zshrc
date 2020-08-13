@@ -1,6 +1,14 @@
 # WSL defaults to 0000, so be explicit
 umask 0022
 
+# WSL2 X11
+export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0
+export LIBGL_ALWAYS_INDIRECT=1
+
+# Exclude Windows Ruby from PATH
+# ":# is a substitution that filters out the input that matches the pattern"
+path=( ${path[@]:#*/mnt/c/tools/ruby27/bin*} )
+
 # Look for Puppet executables and man pages
 export PATH="/opt/puppetlabs/bin:$PATH"
 export MANPATH="/opt/puppetlabs/client-tools/share/man:$MANPATH"
@@ -50,7 +58,6 @@ antigen use oh-my-zsh
 
 # Bundles from oh-my-zsh
 antigen bundle z
-antigen bundle ssh-agent
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
