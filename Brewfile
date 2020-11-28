@@ -35,7 +35,7 @@ brew "youtube-dl"
 
 # Casks
 cask "alfred"
-cask "caffeine"
+cask "keepingyouawake"
 cask "dash"
 cask "iterm2"
 cask "bettertouchtool"
