@@ -1,5 +1,6 @@
 *.swp
 vim/.vim/bundle
 vim/.vim/.netrwhist
+xdg-configs/karabiner/automatic_backups
 application-support/Dash/*
 !application-support/Dash/License/license.dash-license
