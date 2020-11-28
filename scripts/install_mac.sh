@@ -151,17 +151,17 @@ defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
 defaults write com.apple.TextEdit RichText -bool false
 
 # finder
-FINDER_BOOL_TRUE=(ShowHardDrivesOnDesktop ShowExternalHardDrivesOnDesktop ShowMountedServersOnDesktop ShowPathbar ShowStatusBar AppleShowAllExtensions _FXShowPosixPathInTitle DSDontWriteNetworkStores QLEnableTextSelection)
+FINDER_BOOL_TRUE=(ShowHardDrivesOnDesktop ShowExternalHardDrivesOnDesktop ShowMountedServersOnDesktop ShowPathbar ShowStatusBar ShowPathbar AppleShowAllExtensions _FXShowPosixPathInTitle _FXSortFoldersFirst DSDontWriteNetworkStores QLEnableTextSelection)
 for key in "${FINDER_BOOL_TRUE[@]}"; do
   defaults write com.apple.finder $key -bool true
 done
-FINDER_BOOL_FALSE=(SidebarTagsSctionDisclosedState ShowPathbar FXEnableExtensionChangeWarning AppleShowAllFiles)
+FINDER_BOOL_FALSE=(SidebarTagsSctionDisclosedState ShowRecentTags FXEnableExtensionChangeWarning AppleShowAllFiles)
 for key in "${FINDER_BOOL_FALSE[@]}"; do
   defaults write com.apple.finder $key -bool false
 done
 
-# New window defaults to $HOME
-defaults write com.apple.finder NewWindowTargetPath "file://${HOME}"
+# New window defaults to your $HOME
+defaults write com.apple.finder NewWindowTarget 'PfHm'
 
 # search current folder by default
 defaults write com.apple.finder FXDefaultSearchScope SCcf
@@ -180,7 +180,7 @@ defaults write com.apple.finder FXPreferredViewStyle clmv
 # desktop item info
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 
-killall Finder
+killall -v Finder
 
 # Safari
 SAFARI_BOOL_TRUE=(AlwaysShowTabBar AlwaysRestoreSessionAtLaunch ShowOverlayStatusBar ShowFullURLInSmartSearchField IncludeDevelopMenu ShowIconsInTabs SuppressSearchSuggestions)
