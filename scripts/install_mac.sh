@@ -26,7 +26,12 @@ loginitems -a BetterTouchTool
 loginitems -a MenuMetersApp -p "${HOME}/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app"
 loginitems -a 'Alfred 3'
 loginitems -a Dash
-loginitems -a Caffeine
+loginitems -a KeepingYouAwake
+loginitems -a nextcloud
+
+# Finder sidebar management
+mysides remove All\ My\ Files file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch/
+mysides remove domain-AirDrop nwnode://domain-AirDrop
 
 # Dock management
 dockutil --remove 'Siri'
@@ -187,7 +192,7 @@ SAFARI_BOOL_TRUE=(AlwaysShowTabBar AlwaysRestoreSessionAtLaunch ShowOverlayStatu
 for key in "${SAFARI_BOOL_TRUE[@]}"; do
   defaults write com.apple.Safari $key -bool true
 done
-SAFARI_BOOL_FALSE=(UniversalSearchEnabled ShowFavoritesBar ShowSidebarInTopSites FindOnPageMatchesWordStartsOnly)
+SAFARI_BOOL_FALSE=(UniversalSearchEnabled ShowFavoritesBar ShowSidebarInTopSites AutoFillPasswords AutoFillMiscellaneousForms AutoFillCreditCardData FindOnPageMatchesWordStartsOnly)
 for key in "${SAFARI_BOOL_FALSE[@]}"; do
   defaults write com.apple.Safari $key -bool false
 done
