@@ -14,7 +14,7 @@ export PATH="/opt/puppetlabs/bin:$PATH"
 export MANPATH="/opt/puppetlabs/client-tools/share/man:$MANPATH"
 
 # Make less more powerful (https://www.topbug.net/blog/2016/09/27/make-gnu-less-more-powerful/)
-export LESS='--quit-if-one-screen --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
+export LESS='--ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 
 # XDG configs
 export XDG_CONFIG_HOME="${HOME}/.config"
@@ -61,6 +61,7 @@ antigen bundle z
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
+antigen bundle bobsoppe/zsh-ssh-agent
 
 antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 
