@@ -5,6 +5,9 @@ umask 0022
 export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0
 export LIBGL_ALWAYS_INDIRECT=1
 
+# Disable Magic Plugins to make pasting text faster, see
+DISABLE_MAGIC_FUNCTIONS=true
+
 # Exclude Windows Ruby from PATH
 # ":# is a substitution that filters out the input that matches the pattern"
 path=( ${path[@]:#*/mnt/c/tools/ruby27/bin*} )
