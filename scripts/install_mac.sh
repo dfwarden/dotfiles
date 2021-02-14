@@ -163,6 +163,7 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock showLaunchpadGestureEnabled -bool false
 defaults write com.apple.dock showhidden -bool true
+defaults write com.apple.dock show-recents -bool false
 defaults write com.apple.dock.mineffect -string "scale"
 
 # mission control
