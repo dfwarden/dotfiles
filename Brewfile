@@ -34,13 +34,14 @@ brew "postgresql"
 brew "youtube-dl"
 
 # Casks
+cask "1password"
 cask "alfred"
 cask "keepingyouawake"
 cask "dash"
 cask "iterm2"
 cask "bettertouchtool"
 cask "joplin"
-cask "yujitach-menumeters"
+cask "menumeters"
 cask "karabiner-elements"
 cask "fugu"
 cask "plex"
@@ -48,14 +49,9 @@ cask "mysides"
 cask "nextcloud"
 cask "airtame"
 cask "gas-mask"
-cask "font-source-code-pro-for-powerline"
 cask "font-hack-nerd-font"
 cask "docker"
 cask "powershell"
-
-# Dislocker (FUSE + Microsoft Bitlocker) requires osxfuse cask
-cask "osxfuse"
-brew "dislocker"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466
