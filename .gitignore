@@ -1,6 +1,10 @@
 *.swp
+*.lock.json
 vim/.vim/bundle
 vim/.vim/.netrwhist
 xdg-configs/karabiner/automatic_backups
+application-support/Alfred/**
+!application-support/Alfred/prefs.json
+!application-support/Alfred/Alfred.alfredpreferences/preferences/**
 application-support/Dash/*
 !application-support/Dash/License/license.dash-license
