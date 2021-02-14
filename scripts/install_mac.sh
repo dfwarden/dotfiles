@@ -24,16 +24,21 @@ fi
 # Set up LoginItems
 loginitems -a BetterTouchTool
 loginitems -a MenuMetersApp -p "${HOME}/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app"
-loginitems -a 'Alfred 3'
+loginitems -a 'Alfred 4'
 loginitems -a Dash
 loginitems -a KeepingYouAwake
 loginitems -a nextcloud
 
 # Finder sidebar management
-mysides remove All\ My\ Files file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch/
-mysides remove domain-AirDrop nwnode://domain-AirDrop
+mysides remove all
+mysides add Applications file:///Applications
+mysides add Home file://${HOME}
+mysides add Downloads file://${HOME}/Downloads
+mysides add Documents file://${HOME}/Documents
 
 # Dock management
+
+# remove garbage
 dockutil --remove 'Siri'
 dockutil --remove 'Launchpad'
 dockutil --remove 'Mail'
@@ -45,14 +50,29 @@ dockutil --remove 'Pages'
 dockutil --remove 'Numbers'
 dockutil --remove 'Keynote'
 dockutil --remove 'News'
+dockutil --remove 'TV'
+dockutil --remove 'Podcasts'
 
-dockutil --add '/Applications/Twitterrific.app/' --position 'beginning'
-dockutil --add '/Applications/Slack.app/' --after 'Twitterrific'
-dockutil --add '/Applications/Messages.app/' --after 'Slack'
-dockutil --add '/Applications/Firefox.app/' --after 'Safari'
-dockutil --add '/Applications/Google Chrome.app/' --after 'Safari'
-dockutil --add '/Applications/iTerm.app/' --after 'Firefox'
-dockutil --add '/Applications/1Password 7.app/' --before 'iTunes'
+# add used apps
+dockutil --add '/Applications/Twitterrific.app/'
+dockutil --add '/Applications/Slack.app/'
+dockutil --add '/Applications/Messages.app/'
+dockutil --add '/Applications/Firefox.app/'
+dockutil --add '/Applications/Microsoft Edge.app/'
+dockutil --add '/Applications/Google Chrome.app/'
+dockutil --add '/Applications/iTerm.app/'
+dockutil --add '/Applications/1Password 7.app/'
+
+# move used apps to desired locations
+dockutil --move 'Twitterrific' --position 'beginning'
+dockutil --move 'Slack' --after 'Twitterrific'
+dockutil --move 'Messages' --after 'Slack'
+dockutil --move 'Safari' --after 'Messages'
+dockutil --move 'Firefox' --after 'Safari'
+dockutil --move 'Microsoft Edge' --after 'Firefox'
+dockutil --move 'Google Chrome' --after 'Microsoft Edge'
+dockutil --move 'iTerm' --after 'Google Chrome'
+dockutil --move '1Password 7' --after 'iTerm'
 
 # Defaults System Changes
 
@@ -98,6 +118,10 @@ defaults write NSGlobalDomain KeyRepeat -int 2
 
 # Always open new in tab
 defaults write NSGlobalDomain AppleWindowTabbingMode -string "always"
+
+# Dark mode
+defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
+defaults write NSGlobalDomain AppleAquaColorVariant -int 1
 
 # Pink accent
 defaults write NSGlobalDomain AppleAccentColor -int 6
@@ -202,3 +226,5 @@ defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
 defaults write com.iconfactory.Twitterrific5 generalTheme -int 1
 defaults write com.iconfactory.Twitterrific5 generalTrendsType -int 0
 defaults write com.iconfactory.Twitterrific5 readingPositionService -int 1
+
+killall -v cfprefsd
