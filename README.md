@@ -34,3 +34,5 @@
   * Better Touch Tool import preset
   * Downgrade Dash to 4
   * Karabiner kext approve
+  * 1password Safari extension - enable
+  * 1password Firefox/Chromeish extension - install
