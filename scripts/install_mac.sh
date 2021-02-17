@@ -144,6 +144,10 @@ do
   defaults write NSGlobalDomain $key -bool false
 done
 
+# Scroll bars should be visible and position-jumpable
+defaults write NSGlobalDomain AppleScrollerPagingBehavior -int 1
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+
 # Set correct scroll direction for mice wheels
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
