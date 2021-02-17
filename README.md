@@ -36,3 +36,7 @@
   * Karabiner kext approve
   * 1password Safari extension - enable
   * 1password Firefox/Chromeish extension - install
+  * Finder sidebar show all hard drives in Locations
+
+# Notes
+  * [macOS Defaults](https://macos-defaults.com) - a handy site of known keys for the Defaults system.
