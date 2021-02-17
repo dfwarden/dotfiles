@@ -37,6 +37,8 @@
   * 1password Safari extension - enable
   * 1password Firefox/Chromeish extension - install
   * Finder sidebar show all hard drives in Locations
+  * Microsoft Remote Desktop saves preferences/connections in sqlite at `/Users/${USER}/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos`
+    * It seems you can't symlink these to a location outside of ~/Library/Containers, which makes sense.
 
 # Notes
   * [macOS Defaults](https://macos-defaults.com) - a handy site of known keys for the Defaults system.
