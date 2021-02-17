@@ -98,6 +98,9 @@ END
 )
 echo $PROVIDER_WEB_SEARCH_GOOGLE | defaults import -g -
 
+# Global Finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
@@ -181,7 +184,7 @@ defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
 defaults write com.apple.TextEdit RichText -bool false
 
 # finder
-FINDER_BOOL_TRUE=(ShowHardDrivesOnDesktop ShowExternalHardDrivesOnDesktop ShowMountedServersOnDesktop ShowPathbar ShowStatusBar ShowPathbar AppleShowAllExtensions _FXShowPosixPathInTitle _FXSortFoldersFirst DSDontWriteNetworkStores QLEnableTextSelection)
+FINDER_BOOL_TRUE=(ShowHardDrivesOnDesktop ShowExternalHardDrivesOnDesktop ShowMountedServersOnDesktop ShowPathbar ShowStatusBar ShowPathbar _FXShowPosixPathInTitle _FXSortFoldersFirst DSDontWriteNetworkStores QLEnableTextSelection)
 for key in "${FINDER_BOOL_TRUE[@]}"; do
   defaults write com.apple.finder $key -bool true
 done
