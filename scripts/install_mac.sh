@@ -210,6 +210,9 @@ defaults write com.apple.finder FXPreferredViewStyle clmv
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
 
+# Finder toolbar should have text and icons
+/usr/libexec/PlistBuddy -c "Set :'NSToolbar Configuration Browser':'TB Display Mode' 1" ~/Library/Preferences/com.apple.finder.plist
+
 # finder desktop
 # desktop grid view
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
