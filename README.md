@@ -24,6 +24,8 @@
 
 ### Mac
   * Run `scripts/install_mac.sh`
+  * Logout and back in
+  * Run `scripts/install_mac.sh` again
 
 ## Still Manual
 
@@ -31,8 +33,7 @@
 
 ### Mac
 
-  * Better Touch Tool import preset
-  * Downgrade Dash to 4
+  * Better Touch Tool license
   * Karabiner kext approve
   * 1password Safari extension - enable
   * 1password Firefox/Chromeish extension - install

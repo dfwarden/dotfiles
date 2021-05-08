@@ -28,6 +28,10 @@ loginitems -a 'Alfred 4'
 loginitems -a Dash
 loginitems -a KeepingYouAwake
 loginitems -a nextcloud
+loginitems -a Karabiner-Elements
+
+# Locate command database
+launchctl list com.apple.locate || sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
 # Finder sidebar management
 mysides remove all
