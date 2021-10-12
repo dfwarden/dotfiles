@@ -28,16 +28,19 @@ export XDG_CONFIG_HOME="${HOME}/.config"
 # Tmux use XDG config location
 alias tmux='tmux -f "${XDG_CONFIG_HOME}/tmux/tmux.conf"'
 
-# Load Antigen (https://github.com/zsh-users/antigen)
-source ~/.zsh/antigen.zsh
+# Load Antigen if on modern Zsh (>= 5.1)
+autoload is-at-least
+if is-at-least 5.1; then
+    source ~/.zsh/antigen.zsh
 
-antigen bundle z
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-completions
+    antigen bundle z
+    antigen bundle zsh-users/zsh-syntax-highlighting
+    antigen bundle zsh-users/zsh-completions
 
-antigen theme romkatv/powerlevel10k
+    antigen theme romkatv/powerlevel10k
 
-antigen apply
+    antigen apply
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+    # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+    [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+fi
