@@ -1,9 +1,12 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # WSL defaults to 0000, so be explicit
 umask 0022
-
-# WSL2 X11
-export DISPLAY=$(grep -m 1 nameserver /etc/resolv.conf | awk '{print $2}'):0.0
-export LIBGL_ALWAYS_INDIRECT=1
 
 # Disable Magic Plugins to make pasting text faster, see
 DISABLE_MAGIC_FUNCTIONS=true
@@ -22,50 +25,19 @@ export LESS='--ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --H
 # XDG configs
 export XDG_CONFIG_HOME="${HOME}/.config"
 
-# Bullet Train theme settings
-BULLETTRAIN_TIME_BG='magenta'
-BULLETTRAIN_TIME_FG='white'
-BULLETTRAIN_CONTEXT_BG='magenta'
-BULLETTRAIN_CONTEXT_FG='white'
-BULLETTRAIN_CONTEXT_DEFAULT_USER='warden'
-BULLETTRAIN_EXEC_TIME_ELAPSED='2'
-# Disable NodeJS section
-BULLETTRAIN_PROMPT_ORDER=(
-  time
-  status
-  custom
-  context
-  dir
-  screen
-  perl
-  ruby
-  virtualenv
-  aws
-  go
-  rust
-  elixir
-  git
-  hg
-  cmd_exec_time
-)
-
-
 # Tmux use XDG config location
 alias tmux='tmux -f "${XDG_CONFIG_HOME}/tmux/tmux.conf"'
 
 # Load Antigen (https://github.com/zsh-users/antigen)
 source ~/.zsh/antigen.zsh
 
-# Load the oh-my-zsh library
-antigen use oh-my-zsh
-
-# Bundles from oh-my-zsh
 antigen bundle z
-
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
-antigen bundle bobsoppe/zsh-ssh-agent
 
-antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+antigen theme romkatv/powerlevel10k
 
 antigen apply
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
