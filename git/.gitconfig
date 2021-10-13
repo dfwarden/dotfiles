@@ -12,11 +12,12 @@
     templatedir = ~/.git_templates/
 [user]
     name = David Warden
+    email = warden@geneseo.edu
 [pager]
     branch = false
 [commit]
     verbose = true
 [merge]
-	conflictstyle = diff3
+    conflictstyle = diff3
 [core]
-	editor = vim
+    editor = vim
