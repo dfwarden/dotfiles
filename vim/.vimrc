@@ -15,6 +15,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/syntastic'
 Plugin 'rodjek/vim-puppet'
 Plugin 'rizzatti/dash.vim'
+Plugin 'junegunn/fzf'
 Bundle 'PProvost/vim-ps1'
 
 " All of your Plugins must be added before the following line
