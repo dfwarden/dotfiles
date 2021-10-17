@@ -44,7 +44,8 @@ setopt share_history          # share command history data
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.zsh
 
 # ssh-agent for non-Apple
-if [[ "OSTYPE" != darwin* ]]; then
+# (Apple manages SSH_AUTH_SOCK and launching the agent)
+if [[ "${OSTYPE}" != darwin* ]]; then
     export SSH_AUTH_SOCK="${HOME}/.ssh/.ssh-agent.sock"
     SSH_AGENT_PID=$(command pgrep -u $UID ssh-agent)
     if [[ "" = $SSH_AGENT_PID ]]; then
