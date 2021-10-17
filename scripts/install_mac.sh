@@ -142,7 +142,16 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 defaults write com.apple.menuextra.clock DateFormat -string "MM dd HH:mm"
 
-GLOBAL_BOOL_FALSE=(NSAutomaticTextCompletionEnabled NSAutomaticCapitalizationEnabled NSAutomaticTextCompletionEnabled NSAutomaticPeriodSubstitutionEnabled NSAutomaticSpellingCorrectionEnabled NSAutomaticQuoteSubstitutionEnabled NSAutomaticDashSubstitutionEnabled ApplePressAndHoldEnabled)
+GLOBAL_BOOL_FALSE=(
+    NSAutomaticTextCompletionEnabled
+    NSAutomaticCapitalizationEnabled
+    NSAutomaticTextCompletionEnabled
+    NSAutomaticPeriodSubstitutionEnabled
+    NSAutomaticSpellingCorrectionEnabled
+    NSAutomaticQuoteSubstitutionEnabled
+    NSAutomaticDashSubstitutionEnabled
+    ApplePressAndHoldEnabled
+)
 for key in "${GLOBAL_BOOL_FALSE[@]}"
 do
   defaults write NSGlobalDomain $key -bool false
@@ -192,11 +201,27 @@ defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
 defaults write com.apple.TextEdit RichText -bool false
 
 # finder
-FINDER_BOOL_TRUE=(ShowHardDrivesOnDesktop ShowExternalHardDrivesOnDesktop ShowMountedServersOnDesktop ShowPathbar ShowStatusBar ShowPathbar _FXShowPosixPathInTitle _FXSortFoldersFirst DSDontWriteNetworkStores QLEnableTextSelection)
+FINDER_BOOL_TRUE=(
+    ShowHardDrivesOnDesktop
+    ShowExternalHardDrivesOnDesktop
+    ShowMountedServersOnDesktop
+    ShowPathbar
+    ShowStatusBar
+    ShowPathbar
+    _FXShowPosixPathInTitle
+    _FXSortFoldersFirst
+    DSDontWriteNetworkStores
+    QLEnableTextSelection
+)
 for key in "${FINDER_BOOL_TRUE[@]}"; do
   defaults write com.apple.finder $key -bool true
 done
-FINDER_BOOL_FALSE=(SidebarTagsSctionDisclosedState ShowRecentTags FXEnableExtensionChangeWarning AppleShowAllFiles)
+FINDER_BOOL_FALSE=(
+    SidebarTagsSctionDisclosedState
+    ShowRecentTags
+    FXEnableExtensionChangeWarning
+    AppleShowAllFiles
+)
 for key in "${FINDER_BOOL_FALSE[@]}"; do
   defaults write com.apple.finder $key -bool false
 done
@@ -227,11 +252,30 @@ defaults write com.apple.finder FXPreferredViewStyle clmv
 killall -v Finder
 
 # Safari
-SAFARI_BOOL_TRUE=(AlwaysShowTabBar AlwaysRestoreSessionAtLaunch ShowOverlayStatusBar ShowFullURLInSmartSearchField IncludeDevelopMenu ShowIconsInTabs SuppressSearchSuggestions)
+SAFARI_BOOL_TRUE=(
+    AlwaysShowTabBar
+    AlwaysRestoreSessionAtLaunch
+    ShowOverlayStatusBar
+    ShowFullURLInSmartSearchField
+    IncludeDevelopMenu
+    ShowIconsInTabs
+    SuppressSearchSuggestions
+    ShowStandaloneTabBar
+    NeverUseBackgroundColorInToolbar
+)
 for key in "${SAFARI_BOOL_TRUE[@]}"; do
   defaults write com.apple.Safari $key -bool true
 done
-SAFARI_BOOL_FALSE=(UniversalSearchEnabled ShowFavoritesBar ShowSidebarInTopSites AutoFillPasswords AutoFillMiscellaneousForms AutoFillCreditCardData FindOnPageMatchesWordStartsOnly)
+SAFARI_BOOL_FALSE=(
+    UniversalSearchEnabled
+    ShowFavoritesBar
+    ShowSidebarInTopSites
+    AutoFillPasswords
+    AutoFillMiscellaneousForms
+    AutoFillCreditCardData
+    FindOnPageMatchesWordStartsOnly
+    EnableNarrowTabs
+)
 for key in "${SAFARI_BOOL_FALSE[@]}"; do
   defaults write com.apple.Safari $key -bool false
 done
