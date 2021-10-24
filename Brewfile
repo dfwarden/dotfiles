@@ -52,6 +52,7 @@ cask "gas-mask"
 cask "font-hack-nerd-font"
 cask "docker"
 cask "powershell"
+cask "secretive"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466

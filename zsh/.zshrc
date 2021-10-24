@@ -45,7 +45,10 @@ setopt share_history          # share command history data
 
 # ssh-agent for non-Apple
 # (Apple manages SSH_AUTH_SOCK and launching the agent)
-if [[ "${OSTYPE}" != darwin* ]]; then
+if [[ "${OSTYPE}" == darwin* ]]; then
+    # Secretive
+    :
+else
     export SSH_AUTH_SOCK="${HOME}/.ssh/.ssh-agent.sock"
     SSH_AGENT_PID=$(command pgrep -u $UID ssh-agent)
     if [[ "" = $SSH_AGENT_PID ]]; then
