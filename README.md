@@ -27,11 +27,19 @@
   * Logout and back in
   * Run `scripts/install_mac.sh` again
 
-#### Time Machine Restore (Music)
-This is fragile because I use SMB-based Time Machine.
+#### Time Machine Restore Tasks
   * Manually add the Time Machine destination with `sudo tmutil setdestination -p smb://{user}@{host}/{TM share}`
   * List the available backups and their mount paths with `sudo tmutil listbackups -m`
+
+##### Music / iTunes
+This is fragile because I use SMB-based Time Machine.
   * Browse the latest backup mount point, restore Music with `sudo tmutil restore -v {ugly path}/Music /Users/warden/Music`
+
+##### Microsoft Remote Desktop
+  * Microsoft Remote Desktop saves preferences/connections in sqlite at `/Users/${USER}/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos`
+  * Install and run the App Store version of Remote Desktop Client
+  * Restore your RDC sqlite files with `sudo tmutil restore -v {ugly path}/Users/warden/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application\ Support/com.microsoft.rdc.macos {somewhere}`
+  * Copy those files to `Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos` (should have good perms after this)
 
 ## Still Manual
 
@@ -39,13 +47,10 @@ This is fragile because I use SMB-based Time Machine.
 
 ### Mac
 
-  * Better Touch Tool license
   * Karabiner kext approve
   * 1password Safari extension - enable
   * 1password Firefox/Chromeish extension - install
   * Finder sidebar show all hard drives in Locations
-  * Microsoft Remote Desktop saves preferences/connections in sqlite at `/Users/${USER}/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos`
-    * It seems you can't symlink these to a location outside of ~/Library/Containers, which makes sense.
 
 # Notes
   * [macOS Defaults](https://macos-defaults.com) - a handy site of known keys for the Defaults system.
