@@ -32,7 +32,6 @@ loginitems -a 'Alfred 4'
 loginitems -a Dash
 loginitems -a KeepingYouAwake
 loginitems -a nextcloud
-loginitems -a Karabiner-Elements
 
 # Locate command database
 launchctl print system/com.apple.locate || sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
