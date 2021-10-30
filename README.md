@@ -27,6 +27,12 @@
   * Logout and back in
   * Run `scripts/install_mac.sh` again
 
+#### Time Machine Restore (Music)
+This is fragile because I use SMB-based Time Machine.
+  * Manually add the Time Machine destination with `sudo tmutil setdestination -p smb://{user}@{host}/{TM share}`
+  * List the available backups and their mount paths with `sudo tmutil listbackups -m`
+  * Browse the latest backup mount point, restore Music with `sudo tmutil restore -v {ugly path}/Music /Users/warden/Music`
+
 ## Still Manual
 
 * Sign-in to browsers, comms
