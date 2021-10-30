@@ -11,6 +11,10 @@ mkdir -p $BTT $DASH/License
 stow -t $LAS application-support
 
 # Stow ~/Library/Preferences
+# clear /Library/Preferences/com.apple.symbolichotkeys.plist out of the way if not symlink
+if [ ! -L "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist" ]; then
+    rm "${HOME}/Library/Preferences/com.apple.symbolichotkeys.plist"
+fi
 stow -t $HOME/Library/Preferences library-preferences
 
 brew bundle
@@ -61,6 +65,7 @@ dockutil --remove 'Podcasts'
 dockutil --add '/Applications/Twitterrific.app/'
 dockutil --add '/Applications/Microsoft Teams.app/'
 dockutil --add '/Applications/Messages.app/'
+dockutil --add '/Applications/Safari Technology Preview.app/'
 dockutil --add '/Applications/Firefox.app/'
 dockutil --add '/Applications/Microsoft Edge.app/'
 dockutil --add '/Applications/iTerm.app/'
@@ -72,7 +77,7 @@ dockutil --move 'Microsoft Teams' --after 'Twitterrific'
 dockutil --move 'Messages' --after 'Microsoft Teams'
 dockutil --move 'Safari' --after 'Messages'
 dockutil --move 'Safari Technology Preview' --after 'Safari'
-dockutil --move 'Firefox' --after 'Safari'
+dockutil --move 'Firefox' --after 'Safari Technology Preview'
 dockutil --move 'Microsoft Edge' --after 'Firefox'
 dockutil --move 'iTerm' --after 'Microsoft Edge'
 dockutil --move '1Password 7' --after 'iTerm'
