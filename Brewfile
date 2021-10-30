@@ -50,6 +50,10 @@ cask "powershell"
 cask "secretive"
 cask "gfxcardstatus"
 cask "safari-technology-preview"
+cask "microsoft-edge"
+cask "firefox-beta"
+cask "activitywatch"
+cask "google-drive"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466
