@@ -284,6 +284,7 @@ for key in "${SAFARI_BOOL_FALSE[@]}"; do
   defaults write com.apple.Safari $key -bool false
 done
 defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
+defaults write com.apple.Safari.SandboxBroker ShowDevelopMenu -bool true
 
 # Twitter
 defaults write com.iconfactory.Twitterrific5 generalTheme -int 1
