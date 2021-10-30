@@ -31,7 +31,7 @@ loginitems -a nextcloud
 loginitems -a Karabiner-Elements
 
 # Locate command database
-launchctl list com.apple.locate || sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+launchctl print system/com.apple.locate || sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
 # Finder sidebar management
 mysides remove all
@@ -59,23 +59,22 @@ dockutil --remove 'Podcasts'
 
 # add used apps
 dockutil --add '/Applications/Twitterrific.app/'
-dockutil --add '/Applications/Slack.app/'
+dockutil --add '/Applications/Microsoft Teams.app/'
 dockutil --add '/Applications/Messages.app/'
 dockutil --add '/Applications/Firefox.app/'
 dockutil --add '/Applications/Microsoft Edge.app/'
-dockutil --add '/Applications/Google Chrome.app/'
 dockutil --add '/Applications/iTerm.app/'
 dockutil --add '/Applications/1Password 7.app/'
 
 # move used apps to desired locations
 dockutil --move 'Twitterrific' --position 'beginning'
-dockutil --move 'Slack' --after 'Twitterrific'
-dockutil --move 'Messages' --after 'Slack'
+dockutil --move 'Microsoft Teams' --after 'Twitterrific'
+dockutil --move 'Messages' --after 'Microsoft Teams'
 dockutil --move 'Safari' --after 'Messages'
+dockutil --move 'Safari Technology Preview' --after 'Safari'
 dockutil --move 'Firefox' --after 'Safari'
 dockutil --move 'Microsoft Edge' --after 'Firefox'
-dockutil --move 'Google Chrome' --after 'Microsoft Edge'
-dockutil --move 'iTerm' --after 'Google Chrome'
+dockutil --move 'iTerm' --after 'Microsoft Edge'
 dockutil --move '1Password 7' --after 'iTerm'
 
 # Defaults System Changes

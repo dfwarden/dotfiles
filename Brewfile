@@ -26,7 +26,6 @@ brew "nmap"
 brew "wget"
 brew "jq"
 brew "lsd"
-brew "postgresql"
 brew "youtube-dl"
 
 # Casks
@@ -47,13 +46,12 @@ cask "nextcloud"
 cask "airtame"
 cask "gas-mask"
 cask "font-hack-nerd-font"
-cask "docker"
 cask "powershell"
 cask "secretive"
 cask "gfxcardstatus"
+cask "safari-technology-preview"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Twitterrific', id: 1289378661
 mas 'BarTunes', id: 444425546
-mas 'Trello', id: 1278508951
