@@ -54,6 +54,7 @@ cask "microsoft-edge"
 cask "firefox-beta"
 cask "activitywatch"
 cask "google-drive"
+cask "visual-studio-code"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466
