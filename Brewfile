@@ -23,6 +23,7 @@ brew "tree"
 brew "pstree"
 brew "htop"
 brew "nmap"
+brew "rename"
 brew "wget"
 brew "jq"
 brew "lsd"
@@ -55,6 +56,7 @@ cask "firefox-beta"
 cask "activitywatch"
 cask "google-drive"
 cask "visual-studio-code"
+cask "pe-client-tools"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466
