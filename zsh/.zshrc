@@ -80,7 +80,10 @@ else
 fi
 
 # LSDeluxe, if available. Has to come after omz is loaded.
-if [[ $(type lsd) ]]; then
+if type lsd &>/dev/null; then
     alias ls='lsd'
     alias lt='lsd --tree --depth=2'
 fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
