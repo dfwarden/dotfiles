@@ -54,6 +54,7 @@ else
         export SSH_AUTH_SOCK="${HOME}/.ssh/.ssh-agent_${HOSTNAME}_.sock"
         SSH_AGENT_PID=$(command pgrep -u $UID ssh-agent)
         if [[ "" == $SSH_AGENT_PID ]]; then
+            rm -f $SSH_AUTH_SOCK
             eval $(ssh-agent -a $SSH_AUTH_SOCK) >/dev/null
         else
             export SSH_AGENT_PID
