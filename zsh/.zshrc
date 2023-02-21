@@ -78,6 +78,7 @@ if is-at-least 5.1; then
     antigen bundle z
     antigen bundle zsh-users/zsh-syntax-highlighting
     antigen bundle zsh-users/zsh-completions
+    antigen bundle zsh-users/zsh-autosuggestions
 
     antigen theme romkatv/powerlevel10k
 
