@@ -18,9 +18,6 @@ brew "teensy_loader_cli"
 
 # Casks
 cask "slack"
-cask "firefox"
-cask "google-chrome"
-cask "1password"
 cask "kicad"
 cask "librecad"
 cask "gimp"
