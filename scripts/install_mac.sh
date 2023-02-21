@@ -28,10 +28,11 @@ fi
 # Set up LoginItems
 loginitems -a BetterTouchTool
 loginitems -a MenuMetersApp -p "${HOME}/Library/PreferencePanes/MenuMeters.prefPane/Contents/Resources/MenuMetersApp.app"
-loginitems -a 'Alfred 4'
+loginitems -a 'Alfred 5'
 loginitems -a Dash
 loginitems -a KeepingYouAwake
 loginitems -a nextcloud
+loginitems -a Karabiner-Elements
 
 # Locate command database
 launchctl print system/com.apple.locate || sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
@@ -46,6 +47,7 @@ mysides add Documents file://${HOME}/Documents
 # Dock management
 
 # remove garbage
+dockutil --remove 'Freeform'
 dockutil --remove 'Siri'
 dockutil --remove 'Launchpad'
 dockutil --remove 'Mail'
@@ -68,7 +70,7 @@ dockutil --add '/Applications/Safari Technology Preview.app/'
 dockutil --add '/Applications/Firefox.app/'
 dockutil --add '/Applications/Microsoft Edge.app/'
 dockutil --add '/Applications/iTerm.app/'
-dockutil --add '/Applications/1Password 7.app/'
+dockutil --add '/Applications/1Password.app/'
 
 # move used apps to desired locations
 dockutil --move 'Twitterrific' --position 'beginning'
