@@ -5,6 +5,7 @@
 ### Mac
 
 1. Install [Homebrew](https://brew.sh)
+2. Install [Dockutil](https://github.com/kcrawford/dockutil/releases)
 
 ## Then...
 
@@ -36,14 +37,14 @@ This is fragile because I use SMB-based Time Machine.
   * Browse the latest backup mount point, restore Music with `sudo tmutil restore -v {ugly path}/Music /Users/warden/Music`
 
 ##### Microsoft Remote Desktop
-  * Microsoft Remote Desktop saves preferences/connections in sqlite at `/Users/${USER}/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos`
+  * Microsoft Remote Desktop saves preferences/connections in sqlite at `/Users/${USER}/Library/Containers/Microsoft Remote Desktop/Data/Library/Application Support/com.microsoft.rdc.macos`
   * Install and run the App Store version of Remote Desktop Client
-  * Restore your RDC sqlite files with `sudo tmutil restore -v {ugly path}/Users/warden/Library/Containers/com.microsoft.rdc.macos/Data/Library/Application\ Support/com.microsoft.rdc.macos {somewhere}`
-  * Copy those files to `Library/Containers/com.microsoft.rdc.macos/Data/Library/Application Support/com.microsoft.rdc.macos` (should have good perms after this)
+  * Restore your RDC sqlite files with `sudo tmutil restore -v {ugly path}/Users/warden/Library/Containers/Microsoft Remote Desktop/Data/Library/Application\ Support/com.microsoft.rdc.macos {somewhere}`
+  * Copy those files to `Library/Containers/Microsoft Remote Desktop/Data/Library/Application Support/com.microsoft.rdc.macos` (should have good perms after this)
 
 ## Still Manual
 
-* Sign-in to browsers, comms
+* Sign-in to browsers, comms, nextcloud
 
 ### Mac
 
@@ -51,6 +52,9 @@ This is fragile because I use SMB-based Time Machine.
   * 1password Safari extension - enable
   * 1password Firefox/Chromeish extension - install
   * Finder sidebar show all hard drives in Locations
+  * Bitwarden sign-in, settings
+  * Mac wallpaper
+  * Teams wallpaper, settings
 
 # Notes
   * [macOS Defaults](https://macos-defaults.com) - a handy site of known keys for the Defaults system.
