@@ -48,6 +48,12 @@ setopt share_history          # share command history data
 if [[ "${OSTYPE}" == darwin* ]]; then
     # Secretive
     :
+    export HOMEBREW_PREFIX="/opt/homebrew";
+    export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
+    export HOMEBREW_REPOSITORY="/opt/homebrew";
+    export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
+    export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
+    export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 else
     # if no forwarded agent
     if [[ "" == $SSH_AUTH_SOCK ]]; then
