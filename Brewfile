@@ -18,7 +18,6 @@ brew "stow"
 brew "httpie"
 brew "ripgrep"
 brew "loginitems"
-brew "dockutil"
 brew "tree"
 brew "pstree"
 brew "htop"
@@ -28,6 +27,7 @@ brew "wget"
 brew "jq"
 brew "lsd"
 brew "youtube-dl"
+brew "bat"
 
 # Casks
 cask "1password"
@@ -62,3 +62,4 @@ cask "pe-client-tools"
 mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Twitterrific', id: 1289378661
 mas 'BarTunes', id: 444425546
+mas 'Bitwarden', id: 1352778147
