@@ -57,6 +57,7 @@ cask "activitywatch"
 cask "google-drive"
 cask "visual-studio-code"
 cask "pe-client-tools"
+cask "istat-menus"
 
 # App Store
 mas 'Microsoft Remote Desktop 10', id: 1295203466
