@@ -28,6 +28,8 @@ brew "jq"
 brew "lsd"
 brew "youtube-dl"
 brew "bat"
+brew "visionmedia-watch"
+brew "timewarrior"
 
 # Casks
 cask "1password"
@@ -60,7 +62,8 @@ cask "pe-client-tools"
 cask "istat-menus"
 
 # App Store
-mas 'Microsoft Remote Desktop 10', id: 1295203466
+mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'Twitterrific', id: 1289378661
-mas 'BarTunes', id: 444425546
 mas 'Bitwarden', id: 1352778147
+mas '1Password for Safari', id: 1569813296
+mas 'AmorphousDiskMark', id: 1168254295
