@@ -48,6 +48,10 @@ This is fragile because I use SMB-based Time Machine.
 
 ### Mac
 
+  * Safari Status Bar
+    * com.apple.Safari ShowOverlayStatusBar=1 is not enough
+    * only other difference before/after in com.apple.Safari is adding ShowDownloadsToolbarIdentifier to "TB Default Item Identifiers" array in "NSToolbar Configuration BrowserStandaloneTabBarToolbarIdentifier" dict.
+    * com.apple.Safari.plist and other goodies are in ~/Library/Containers/com.apple.Safari/Data/Library/Preferences, but no luck finding anything related to Status Bar
   * Karabiner kext approve
   * 1password Safari extension - enable
   * 1password Firefox/Chromeish extension - install
