@@ -203,7 +203,7 @@ defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
 
 # TextEdit
 # Default to plain text
-defaults write com.apple.TextEdit RichText -bool false
+defaults write -app TextEdit RichText 0
 
 # finder
 FINDER_BOOL_TRUE=(
