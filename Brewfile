@@ -60,6 +60,7 @@ cask "google-drive"
 cask "visual-studio-code"
 cask "pe-client-tools"
 cask "istat-menus"
+cask "aldente"
 
 # App Store
 mas 'Microsoft Remote Desktop', id: 1295203466
