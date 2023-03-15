@@ -73,8 +73,6 @@ autoload is-at-least
 if is-at-least 5.1; then
     source ~/.zsh/antigen.zsh
 
-    antigen use oh-my-zsh
-
     antigen bundle z
     antigen bundle zsh-users/zsh-syntax-highlighting
     antigen bundle zsh-users/zsh-completions
@@ -98,3 +96,6 @@ fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Initialize autocompletions
+autoload -Uz compinit
+compinit
