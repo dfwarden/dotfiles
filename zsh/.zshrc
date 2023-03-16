@@ -57,7 +57,7 @@ if [[ "${OSTYPE}" == darwin* ]]; then
 else
     # if no forwarded agent
     if [[ "" == $SSH_AUTH_SOCK ]]; then
-        export SSH_AUTH_SOCK="${HOME}/.ssh/.ssh-agent_${HOSTNAME}_.sock"
+        export SSH_AUTH_SOCK="${HOME}/.ssh/.ssh-agent_${HOSTNAME:-$NAME}_.sock"
         SSH_AGENT_PID=$(command pgrep -u $UID ssh-agent)
         if [[ "" == $SSH_AGENT_PID ]]; then
             rm -f $SSH_AUTH_SOCK
