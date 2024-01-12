@@ -84,9 +84,10 @@ if is-at-least 5.1; then
 
     # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
     [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-else
-    bindkey -e
 fi
+
+# Emacs keybindings (ctrl+a/e) make more sense to me than Vim
+bindkey -e
 
 # LSDeluxe, if available. Has to come after omz is loaded.
 if type lsd &>/dev/null; then
