@@ -25,7 +25,7 @@ git config diff.plist.textconv 'git plutil-toxml1'
 git submodule update --init
 
 # GNU Stow
-STOW_PACKAGES_HOME=(git gnupg ssh vim zsh)
+STOW_PACKAGES_HOME=(git gnupg ssh tmux vim zsh)
 
 for stow_package in "${STOW_PACKAGES_HOME[@]}"; do
   stow -t ${HOME} $stow_package
