@@ -1,9 +1,6 @@
 [submodule "vim/.vim/Vundle.vim"]
 	path = vim/.vim/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
-[submodule "tmux/plugins/tpm"]
-	path = xdg-configs/tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
 [submodule "git/.git_scripts/diff-so-fancy"]
 	path = git/.git_scripts/diff-so-fancy
 	url = https://github.com/so-fancy/diff-so-fancy.git
