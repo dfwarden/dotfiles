@@ -26,10 +26,11 @@ brew "rename"
 brew "wget"
 brew "jq"
 brew "lsd"
-brew "youtube-dl"
+brew "yt-dlp"
 brew "bat"
 brew "visionmedia-watch"
 brew "timewarrior"
+brew "atuin"
 
 # Casks
 cask "1password"
