@@ -1,4 +1,5 @@
 application-support/BetterTouchTool/bettertouchtool.bttlicense filter=git-crypt diff=git-crypt
 application-support/Dash/License/license.dash-license filter=git-crypt diff=git-crypt
+application-support/Cyberduck/f6yak34d.cyberducklicense filter=git-crypt diff=git-crypt
 extra/istatmenus-serial filter=git-crypt diff=git-crypt
 *.plist diff=plist
