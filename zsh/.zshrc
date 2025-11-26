@@ -100,3 +100,11 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Initialize autocompletions
 autoload -Uz compinit
 compinit
+
+# Created by `pipx` on 2024-08-24 23:04:28
+export PATH="$PATH:/Users/warden/.local/bin"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/warden/.lmstudio/bin"
+# End of LM Studio CLI section
+
