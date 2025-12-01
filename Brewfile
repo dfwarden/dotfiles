@@ -1,10 +1,5 @@
 # Taps
-tap "homebrew/core"
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/cask-fonts"
 tap "mas-cli/tap"
 tap "ojford/formulae"
 tap "puppetlabs/puppet"
@@ -31,6 +26,8 @@ brew "bat"
 brew "visionmedia-watch"
 brew "timewarrior"
 brew "atuin"
+brew "hyfetch"
+brew "macchina"
 
 # Casks
 cask "1password"
@@ -64,7 +61,10 @@ cask "aldente"
 
 # App Store
 mas 'Microsoft Remote Desktop', id: 1295203466
-mas 'Twitterrific', id: 1289378661
 mas 'Bitwarden', id: 1352778147
 mas '1Password for Safari', id: 1569813296
 mas 'AmorphousDiskMark', id: 1168254295
+mas 'VMWare Remote Console', id: 1230249825
+mas 'Windows App', id: 1295203466
+mas 'Boop', id: 1518425043
+mas 'Tot', id: 1491071483
