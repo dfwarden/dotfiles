@@ -108,3 +108,9 @@ export PATH="$PATH:/Users/warden/.local/bin"
 export PATH="$PATH:/Users/warden/.lmstudio/bin"
 # End of LM Studio CLI section
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/warden/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/warden/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/warden/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/warden/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
